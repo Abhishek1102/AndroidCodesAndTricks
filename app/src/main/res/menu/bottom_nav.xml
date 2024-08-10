@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/about_device"
+        android:icon="@drawable/about_device"
+        android:title="About Device" />
+    <item
+        android:id="@+id/country_codes"
+        android:icon="@drawable/country_codes"
+        android:title="Country Codes" />
+</menu>
