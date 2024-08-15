@@ -1,5 +1,6 @@
 package com.example.androidcodesandtricks.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Gravity
 import androidx.fragment.app.Fragment
@@ -12,6 +13,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.androidcodesandtricks.R
+import com.example.androidcodesandtricks.activity.SecretCodesActivity
 import com.example.androidcodesandtricks.adapter.TrendingListAdapter
 import com.example.androidcodesandtricks.databinding.FragmentHomeBinding
 import com.example.androidcodesandtricks.model.TrendingListModel
@@ -62,7 +64,8 @@ class HomeFragment : Fragment() {
 
         binding.lvSecretCodes.setOnClickListener {
 
-            toast("success", "Secret Codes")
+            val intent = Intent(context, SecretCodesActivity::class.java)
+            startActivity(intent)
 
         }
 

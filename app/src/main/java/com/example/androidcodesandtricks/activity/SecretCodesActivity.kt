@@ -1,83 +1,71 @@
 package com.example.androidcodesandtricks.activity
 
-import android.graphics.Color
-import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.view.Gravity
 import android.view.View
-import android.widget.GridLayout
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
-import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.androidcodesandtricks.R
-import com.example.androidcodesandtricks.adapter.TrendingListAdapter
-import com.example.androidcodesandtricks.databinding.ActivityHomeBinding
-import com.example.androidcodesandtricks.fragments.AboutDeviceFragment
-import com.example.androidcodesandtricks.fragments.CountryCodeFragment
-import com.example.androidcodesandtricks.fragments.HomeFragment
-import com.example.androidcodesandtricks.model.TrendingListModel
+import com.example.androidcodesandtricks.adapter.SecretCodesAdapter
+import com.example.androidcodesandtricks.databinding.ActivitySecretCodesBinding
+import com.example.androidcodesandtricks.model.SecretCodesModel
 
-class HomeActivity : AppCompatActivity() {
+class SecretCodesActivity : AppCompatActivity() {
 
-    lateinit var binding:ActivityHomeBinding
-
+    private lateinit var binding: ActivitySecretCodesBinding
+    private lateinit var secretCodesAdapter: SecretCodesAdapter
+    private lateinit var secretCodesList: ArrayList<SecretCodesModel>
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityHomeBinding.inflate(layoutInflater)
+        binding = ActivitySecretCodesBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
+        initList()
         initViews()
+    }
+
+    private fun initList() {
+        secretCodesList = ArrayList()
+
+        secretCodesList.add(SecretCodesModel(R.drawable.samsung, "Samsung"))
+        secretCodesList.add(SecretCodesModel(R.drawable.motorola, "Motorola"))
+        secretCodesList.add(SecretCodesModel(R.drawable.lg, "LG"))
+        secretCodesList.add(SecretCodesModel(R.drawable.nokia, "Nokia"))
+        secretCodesList.add(SecretCodesModel(R.drawable.one_plus, "One Plus"))
+        secretCodesList.add(SecretCodesModel(R.drawable.htc, "HTC"))
+        secretCodesList.add(SecretCodesModel(R.drawable.tecno, "Tecno"))
+        secretCodesList.add(SecretCodesModel(R.drawable.oppo, "Oppo"))
+        secretCodesList.add(SecretCodesModel(R.drawable.huawei, "Huawei"))
+        secretCodesList.add(SecretCodesModel(R.drawable.mi, "MI"))
+        secretCodesList.add(SecretCodesModel(R.drawable.vivo, "Vivo"))
+        secretCodesList.add(SecretCodesModel(R.drawable.realme, "Realme"))
+        secretCodesList.add(SecretCodesModel(R.drawable.google, "Google"))
+        secretCodesList.add(SecretCodesModel(R.drawable.sony, "Sony"))
+        secretCodesList.add(SecretCodesModel(R.drawable.vivo, "Vivo"))
+
     }
 
     private fun initViews() {
 
-        addfragment(HomeFragment(), "HomeFragment")
-
-        binding.bottomNavigatioView.setOnItemSelectedListener {
-            Log.d("HomeActivity", "MenuItem selected: ${it.itemId}")
-            when (it.itemId) {
-                R.id.home -> {
-                    Log.d("HomeActivity", "Home selected")
-                    addfragment(HomeFragment(), "HomeFragment")
-                }
-                R.id.about_device -> {
-                    Log.d("HomeActivity", "About Device selected")
-                    addfragment(AboutDeviceFragment(), "AboutDeviceFragment")
-                }
-                R.id.country_codes -> {
-                    Log.d("HomeActivity", "Country Codes selected")
-                    addfragment(CountryCodeFragment(), "CountryCodeFragment")
-                }
-                else -> {
-                    Log.d("HomeActivity", "Unknown menu item selected")
-                }
-            }
-            true
+        binding.ivBack.setOnClickListener {
+            onBackPressedDispatcher.onBackPressed()
         }
 
+        //setting up secret codes list grid recycler view layout manager and adapter and passing list to adapter
+        binding.rvSecretCodes.layoutManager = GridLayoutManager(this, 3)
+        secretCodesAdapter = SecretCodesAdapter(this, secretCodesList)
+        secretCodesAdapter.notifyDataSetChanged()
+        binding.rvSecretCodes.adapter = secretCodesAdapter
+
 
     }
-
-    private fun addfragment(fragment: Fragment, tag: String) {
-        val fragmentManager = supportFragmentManager
-        val fragmentTransaction = fragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.frame_home, fragment, tag)
-        // Do not call addToBackStack(null) to avoid adding the transaction to the back stack
-        fragmentTransaction.commit()
-    }
-
-
 
     private fun toast(type: String, desc: String) {
         val inflater = layoutInflater
