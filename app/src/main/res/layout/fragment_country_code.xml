@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/bg_white"
     tools:context=".fragments.CountryCodeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+   <com.example.androidcodesandtricks.customfont.CustomTextViewSemiBold
+       android:id="@+id/tv_aboutDevice"
+       style="@style/black_16"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="@dimen/_5sdp"
+       android:includeFontPadding="false"
+       android:text="@string/country_codes"
+       android:textAlignment="center"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/rv_countryCode"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="@dimen/_5sdp"
+       android:clipToPadding="false"
+       android:paddingBottom="@dimen/_40sdp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/tv_aboutDevice"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

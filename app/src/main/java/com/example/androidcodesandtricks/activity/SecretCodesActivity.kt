@@ -64,7 +64,6 @@ class SecretCodesActivity : AppCompatActivity() {
         secretCodesAdapter.notifyDataSetChanged()
         binding.rvSecretCodes.adapter = secretCodesAdapter
 
-
     }
 
     private fun toast(type: String, desc: String) {

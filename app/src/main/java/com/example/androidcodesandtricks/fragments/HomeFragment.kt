@@ -13,6 +13,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.androidcodesandtricks.R
+import com.example.androidcodesandtricks.activity.AndroidTricksActivity
+import com.example.androidcodesandtricks.activity.MobileTipsActivity
 import com.example.androidcodesandtricks.activity.SecretCodesActivity
 import com.example.androidcodesandtricks.adapter.TrendingListAdapter
 import com.example.androidcodesandtricks.databinding.FragmentHomeBinding
@@ -48,7 +50,7 @@ class HomeFragment : Fragment() {
         trendingItemList.add(TrendingListModel(R.drawable.lg, "LG"))
         trendingItemList.add(TrendingListModel(R.drawable.manage_memory, "Manage Memory"))
         trendingItemList.add(TrendingListModel(R.drawable.google, "Google"))
-        trendingItemList.add(TrendingListModel(R.drawable.wifi_password, "Wifi Password"))
+        trendingItemList.add(TrendingListModel(R.drawable.show_wifi_password, "Wifi Password"))
         trendingItemList.add(TrendingListModel(R.drawable.speedometer, "Speed up Android"))
         trendingItemList.add(TrendingListModel(R.drawable.mi,"MI"))
         trendingItemList.add(TrendingListModel(R.drawable.unknown_facts, "Unknown Facts"))
@@ -71,14 +73,14 @@ class HomeFragment : Fragment() {
 
         binding.lvMobileTips.setOnClickListener {
 
-            toast("success", "Mobile Tips")
-
+            val intent = Intent(context, MobileTipsActivity::class.java)
+            startActivity(intent)
         }
 
         binding.lvAndroidTricks.setOnClickListener {
 
-            toast("success", "Android Tricks")
-
+            val intent = Intent(context, AndroidTricksActivity::class.java)
+            startActivity(intent)
         }
 
         binding.ivSettings.setOnClickListener {

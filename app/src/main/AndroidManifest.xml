@@ -16,6 +16,12 @@
         android:theme="@style/Theme.androidcodesandtricks"
         tools:targetApi="31">
         <activity
+            android:name=".activity.AndroidTricksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MobileTipsActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.SecretCodesActivity"
             android:exported="false" />
         <activity
