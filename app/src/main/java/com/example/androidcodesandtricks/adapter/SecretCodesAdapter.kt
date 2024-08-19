@@ -1,6 +1,7 @@
 package com.example.androidcodesandtricks.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +10,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androidcodesandtricks.R
+import com.example.androidcodesandtricks.activity.SecretCodesDetailActivity
 import com.example.androidcodesandtricks.model.SecretCodesModel
 
 class SecretCodesAdapter(
@@ -36,7 +38,10 @@ class SecretCodesAdapter(
 
         holder.itemView.setOnClickListener {
 
-            Toast.makeText(context, "Clicked ${secretCodesList.get(position).secretCodesItemTitle}", Toast.LENGTH_SHORT).show()
+            // Create an Intent to start SecretCodesDetailActivity
+            val intent = Intent(context, SecretCodesDetailActivity::class.java)
+            intent.putExtra("SECRET_CODE_TITLE", secretCodesList.get(position).secretCodesItemTitle)
+            context.startActivity(intent)
             
         }
 

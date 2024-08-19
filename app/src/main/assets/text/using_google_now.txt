@@ -1,0 +1,105 @@
+ <h5>Set it up right</h5>
+Make sure you have set Google Now up
+correctly before you begin exploring.
+Firstly, get Google Now to recognize
+your "oK Google" command from any
+Screen by tapping the hamburger menu
+icon in the Google app.then go to
+ Settings Voice > OK Google detection.
+ Here you just slide all the toggles to the
+right.
+Once that's done, you'll be prompted
+to train Ok Google to your device, which
+you do by saying OK Google" three
+times.
+Next, head over to Settings> Voice
+Offline speech recognition  and make
+Sure all the languages you need have
+been downloaded. This way, you can still
+use Ok Google commands that dont
+require the internet when you' re offline.
+If you trust Google enough to give it
+access to your location data, you wiIl
+open up a lot or great google Now
+features. To let Google Now use your
+location data, go to the Google settings
+app, choose Location and make sure it's
+set to On. Next, go to Google Location
+History at the bottom or the same page
+and set this to On, as well.
+While you are at it, go into the Google
+app, press on the hamburger menu icon
+and then go to Customize. in here, you
+can set your home and work addresses,
+which can be used to set reminders and
+get information about your commute.
+You can also enter your favorite sports
+teams, which modes of transport you
+use, and more, to get the most useful
+and interesting cards showing up
+
+<h5>Learn all the Ok Google voice
+Commands</h5>
+
+Google Now OK Google offers hundreds
+or Voice Commands that Can be Used to
+achieve a whole host of operations. the
+more you how, the more you will get
+Out of G0ogle Now.
+ <h5>Use location-based reminders</h5>
+If you have to remember do something
+in a certain place, but you're not sure
+what time you'll be there, you can ask
+Google to remind you once it detects
+that you are there. this can be useful for remembering
+what you need to buy when you arrive
+at the shop, or that you need
+to turn the oven on ds soon as you
+arrive home, Tor example.
+ <h5>Let it help you with travel arrangements</h5>
+If you use Google Calendar, Google
+Now will provide you with cards
+and notifications that let you know
+beforehand what time you should leave
+at to arrive at an appointment on time.
+These notifications even account for
+traffic Conditions, making you a more
+punctual and effective human being.
+Make sure you have your preferred
+mode of transport selected  (Customize > transport)  and
+then head into  settings> NOW cards
+ and SWitch Commute and Time to Leave on.
+
+ <h5>Use it to track packages or flights</h5>
+
+If you receive flight confirmations
+and delivery tracking information to a
+Google email account that is linked to
+Google Now, these emails will be used
+to provide cards that track packages
+and update you on your flights status.
+The same can be done for any flight
+by searching for the flight number. If
+you have web history enabled, Google
+Now will create a dedicated card for the
+flight.
+
+<h5> Ask follow-up questions</h5>
+
+Google Now is pretty good at
+contextualizing what you say. If you
+have asked, "How large is California?",
+for example, you can ask a follow-up
+question such as "How many people
+live there?" and Google should have
+no problems remembering that "there"
+refers to California.
+ <h5>Launch apps</h5>
+Google Now has always been there
+to provide a hands-free experience,
+so why continue to use your fingers
+to laboriously open apps? Simply say
+"Open [app name]" and let Google do it
+for you!
+
+

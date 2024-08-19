@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "365764156025",
+    "project_id": "androidcodesandtricks-ed4e0",
+    "storage_bucket": "androidcodesandtricks-ed4e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365764156025:android:c80b90a162ea9521f112a8",
+        "android_client_info": {
+          "package_name": "com.example.androidcodesandtricks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMDr4PPRNHmKnvpLKa7bLa_FxYK4AGye0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,338 @@
+<h5>How to back up your
+Android phone</h5>
+There's always the possibility that
+you'll misplace your phone or drop
+it in water and lose everything.
+Thankfully, there are plenty of
+ways to back up Android devices,
+ensuring that even if something
+happens to your phone, you won't
+lose all those embarrassing photos
+of your kids you were going to h show
+at their 21st birthday. Whether it be
+through Google, a third-party app
+or your computer, here are multiple
+ways to back up phones to make
+Sure you never find yourself in a
+situation where you end up with lost
+data.
+<h5> Editor's note: All steps
+in this article were put
+together using a Pixel
+4a with 5G running
+Android 12 and a custom
+PC running Windows 11.
+Remember steps might
+differ depending on your
+device and software.</h5>
+<h5>How to back up your
+Android phone with
+Google</h5>
+ Backing up most of your data is
+pretty easy with Google, and it has
+gotten far easier over the past few
+years. Unfortunately, there isn't
+yet a one-stop backup method for
+Android phones through Google.
+You'll have to use different Google
+services to back up different data
+types.
+<h5> 1. Photos and videos</h5>
+If you're not already using Google
+Photos, you should be. The service
+automatically backs up every photo
+and video you take to the cloud, so
+you'll never have to back up your
+media ever again manually. If the
+Photos app isnt already on your
+phone, you can download it. Once
+it's installed, you'll need to make
+Sure Photos is set to back up your
+files automatically.
+how to sycn your images to google photos:
+Open the Google Photos app.
+Tap on the profile image in the top-
+right corner
+Select Photos settings.
+Toggle on Back up and sync.
+Also, make sure to go into Upload
+SIze and choose your preferred
+upload settings
+Just keep in mind uploading
+to Google Photos is no longer
+Completely free. Starting June 1,
+2021, any new photos and videos
+you upload will count toward the
+free 15GB of storage that comes with
+every Google Account. Of course,
+you can pay for more storage. Worry
+not, as any photos or Videos you
+may have uploaded in high-quality
+before June 1, 2021, will not acount
+toward your Google storage and will
+still be considered free and exempt
+from the storage limit.
+ <h5>2. Music</h5>
+Google has a great way to backup
+your music to the cloud, then listen
+to it from any device You can use
+YouTube Music, which allows you to
+upload up to 100,000 songs.
+How to upload songs to YouTube
+Music:
+Open your browser and go to
+music.youtube.com.
+Click on your profile image in the
+top-right corner.
+Select Upload music.
+Pick the songS you want to upload
+and select Open.
+You can now play the Songs from
+the YouTube Music app or website.
+Go to LiIbrary > Songs > Uploads.
+<h5>3. Other files</h5>
+Google Drive lets you store your
+other files in the cloud, which means
+they'll be accessible from any
+Connected device.
+How to store your files in Google
+Drive:
+Download the Google Drive app, if
+you don't have it already.
+In the app, press the + button.
+Press Upload.
+Select the file(s) you'd like to back
+up.
+That's it!
+
+<h5>4. Settings, apps, SMS,
+call history, and much
+more!</h5>
+
+Google Drive and Photos make
+Google's backup solutions
+fragmented, but things get much
+more seamless with all other
+essential data. Android's native
+cloud backup Solution can store
+settings, apps, SMS messages, and
+even your call history. This makes it
+easy to restore everything on a neW
+phone.
+How to back up Android to Google
+One:
+Open the Settings app on your
+Android phone.
+tap on Google.
+Go into Backup.
+Toggle on Backup by Google One.
+You can also go into Google
+Account data and select other data
+you can sync. This includes the
+Calendar, Docs, Google Fit, Keep,
+and much more.
+Go back to the main Backup
+settings.
+Tap on Back up now.
+
+How to back up your
+Android phone with
+Amazon Photos,
+OneDrive, and others??
+ Cloud services are a dime and a
+dozen, and Google isn't the only
+one offering oodles of storage.
+Microsoft's OneDrive is a very
+Competent alternative. If you
+subscribe to Office 365, the
+Company tosses in 1TB of online
+storage.
+Elsewhere, Amazon Photos offers
+unlimited photo storage plus
+5GB video storage with a Prime
+subscription. Meanwhile, 100GB
+Storage is a mere s1.99/month or
+$19.99/year, making it an affordable
+albeit not as tightly integrated
+alternative. There are plenty of other
+cloud storage solutions out there;
+check them out by clicking on the
+ink below.he biggest downside of
+straying from Google's ecosystem
+is the effort required to make sure
+all your content is copied or synced.
+These aren't as tightly integrated
+to Android, so they need a bit more
+Work.
+The process of using these apps
+is relatively simple. You have to
+download them and follow the
+instructions during the setup
+process.
+<h5> Backing up to your
+Computer</h5>
+<h5>1. Using Android File
+Transfer</h5>
+ Instead of backing up your device to
+the cloud or to the phone itself, you
+might want to back up all your files
+to your computer for easy access
+later on. Luckily, this is pretty easy
+to do, and the process is pretty
+much tne same whether you're a
+Mac or PC user. Mac users will need
+to download and install the Android
+File Transfer app, though.
+How to back up your Android device
+to a computer
+Plug your phone into your computer
+with your USB cable.
+On Windows, go to My Computer
+and open the phone' s storage.
+On Mac, open Android File Transfer.
+Drag the files you want to back up
+to a folder on your computer.
+Yes, the Android File Transfer app
+is quite Clunky and doesn't always
+do the job. If manually copying
+Over files is your preferred option,
+it might be a good idea to invest
+in a better app. Commander One
+is an excellent app that lets you do
+just that. Android Authority's Oliver
+Craig gives us all the information
+on the best way to transfer files
+between an Android phone and Mac.
+ <h5>2. Wireless sync with
+Syncthing</h5>
+What if you could automatically
+back up all your images and files to
+your computer or NAS drive without
+having to connect a cable? That's
+where sync utilities come into action.
+Syncthing is a great utility to
+ensure all your photographs and
+additional files are downloaded to
+the computer. The premise is simple
+install an app on your phone and
+select a folder to keep an eye on
+constantly. Meanwhile, a client runs
+on your computer, allowing you to
+link up with your phone.
+Now, whenever the app on the
+phone detects a change or file
+addition in a watched folder, it
+immediately sends over a copy to
+the computer. Simple and reliable. It
+Just works. Of course, you can use
+it as a standard sync utility too, but
+I prefer to have all my files sent one
+way to the computer to have a copy
+available even if i delete something
+from my phone.
+How do you set up Syncthing:
+Install the Syncthing app from the
+Play Store.
+Install the Syncthing app on your PC
+or.Mac.
+It is a good idea to pair a device
+before creating folder pairs. Head to
+the DeviIces tab and tap the + icon.
+You can enter the device name or
+click the bar code scan to add the
+device pair using a QR code.
+That's it. Head over to the Folders
+tab and tap the +icon.
+Name the folder, select it in the
+directory, pick the folder type, and
+go through all settings. You can even
+set the folder to receive data it you
+want to receive content from your
+PC to your phone.
+Within a few moments, you will be
+asked to confirm the pair on your
+PC, and synchronization will start.
+
+<h5>Other options to back up
+Android phone</h5>
+Google's services are excellent,
+but if you're looking for a more
+Comprehensive solution one th\'e1t
+backs up everything at once, that
+is-you might need to use a third-
+party app.
+ <h5>Unrooted phone</h5>
+There are many great apps for
+backing up your data, and one of
+the best is Super Backup & Restore.
+It allows you to back up individual
+items on your phone, such as apps,
+Contacts, SMS, calendars, voice calls,
+and more. Users can define where
+the backups go for easy locating
+later, and you can also Schedule
+automatic backups along with
+backing up to cloud storage.
+How to back up Android using Super
+Backup & Restore:
+Download Super Backup & Restore.
+You will see a list of item categories
+that you can back up (Pictures,
+Apps, etc.).
+Select the individual items you'd like
+to include in your backup.
+Tap on Backup or Backup all for
+every selection.
+ <h5>Rooted phones</h5>
+ While most people won't need to
+root their phones to back up what
+they need to, rooting your phone
+can help you back up a few more
+things. By rooting your phone, just
+about everything on your phone
+can be restored, including stuff like
+app settings, system data, and even
+Wi-Fi passwords. One of the most
+used apps for backing up a rooted
+phone is itanium Backup. While
+Titanium Backup certainly looks a
+little outdated, it's a compelling app
+indeed. Here's how to back up your
+files using Titanium Backup:
+While most people Non't need to
+root their phones to back up what
+they need to, rooting yoOur phone
+can help you back up a few more
+things. By rooting your phone, just
+about everything on your phone
+can be restored, including stuff like
+app settings, system data, and even
+Wi-Fi passwords. One of the most
+used apps for backing up a rooted
+phone iS itanium Backup. While
+Titanium Backup certainly looks a
+little outdated, it's a compelling app
+indeed. Here's how to back up your
+files using Titanium Backup:
+Download and open Titanium
+Backup.
+Tap the Menu button in the top-right
+Corner and select Batch actions.
+Select everything you want to back
+up.
+If this is the first time you're backing
+up your device, you'll at least want
+to select backup all user apps and
+backup all system data.
+You can also choose to back up the
+files to Dropbox or Google Drive,
+which you may want to do if you
+lose your phone.
+You can also opt to create a
+recovery-compatible. zip backup file
+This ensures that even if your
+phone's system files become corrupt
+or something else happens that
+prevents you from booting up your
+phone, you'll be able to restore your
+phone from the backup.

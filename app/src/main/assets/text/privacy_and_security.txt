@@ -1,0 +1,56 @@
+ <h5>Turn off Android location tracking</h5>
+Open Settings
+
+Scroll down to Location You'll see
+an on/off switch in the top right. Use
+this to turn location services on or
+off altogether.
+
+<h5>Tap on Location> Google Location History</h5>
+ Once again there's a button
+in the top right that lets you turn
+your location history on or off If you
+also want to delete your location
+history, you can do that here too:
+under Location History tap Delete
+Location History. Once deleted this
+information can't be recovered.
+
+ <h5>Enable Guest Mode on Android</h5>
+Swipe down from the top of thee
+Screen to pull down the notifications
+bar.
+Tap your avatar on the top right
+twice
+Now you will see three icons your
+Google account, Add guest and Add
+user.
+
+Tap Add guest.
+Now your smartphone will switch
+to guest mode. This may take some
+time and the phone may be slightly
+slow initially, but in our tests with a
+Nexus 5 it worked well after a few
+minutes.
+
+When you are done with guest
+mode, you can easily revert to your
+Google account. Follow steps 1 and
+2 above and tap the icon that shows
+your Google account. This will delete
+all data saved in the guest session as
+well.
+
+If your smart phone doesn't have
+Android 5.0 Lollipop installed, you
+should check for a pre-loaded guest
+mode that you can access by going
+to Settings> General > Privacy>
+Guest MOde.
+
+ <h5>Stay away from fraudulent App</h5>
+Always use play store to install any
+kind of app
+
+

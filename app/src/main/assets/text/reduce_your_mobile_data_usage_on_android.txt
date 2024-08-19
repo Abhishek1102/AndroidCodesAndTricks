@@ -1,0 +1,247 @@
+ <h5>Reduce your mobile data usage on android</h5>
+
+You can follow these tips for the
+apps you use the most or your
+particular usage habits.
+
+Compress Chrome pages
+
+If you use Chrome for all your web
+traffic, this tip alone can save you
+30 to 35 percent of your mobile
+browser data consumption. The Data
+Saver option compresses web pages
+before loading them in your browser.
+
+Using Data Saver does slow things
+down a tiny bit, but you quickly get
+used to it and a moments delay is
+worth it when your data lasts so
+much longer. Just launch Chrome,
+tap the three dots in the top right
+hand corner, go down to Settings
+and then to Data Saver. Keep an
+eye on the graph to see your data
+savings grow.
+
+  <h5>Use Opera video compression </h5>
+The Opera for Android browser now
+has a very useful video compression
+option, which can save you a load of
+data if you're frequently watching
+videos on the go. To use it, simply
+download the Opera browser, go to
+Settings> Data savings  and tick the
+box that says Video compression.
+this setting not only saves you data,
+but also means that videos are
+more likely to load faster
+
+  <h5>Ditch the Facebook app </h5>
+Its pretty well known among
+Android aficionados that the
+Facebook app is one of the biggest
+Consumers of data, not to mention
+its high resource use and battery
+drain. So why not replace it with
+something less demanding?
+
+There are lots of alternate Facebook
+apps but many of those are just
+as hungry as the official version.
+Even Facebook Lite, which claims
+to reduce data consumption by
+50 percent, still chews through
+hundreds of MB in a month.
+
+So why not try Tinfoil for Facebook,
+which is simply a web app that
+displays the Facebook website or
+you could simply create a Chrome
+shortcut in your web browser. Just
+open Facebook in Chrome, open the
+Overflow menu and select Add to
+Home Screen.
+
+  <h5>Make use of offline apps, games and services </h5>
+
+Some apps and games require
+Constant internet access to function:
+this can be simply a security
+measure or because they constantly
+need to retrieve data. There are
+Some apps and games that do not
+require internet access at all after
+the initial download.
+
+Check out below for some hints
+
+  <h5>Restrict background data </h5>
+The easiest way to save data is
+to tell your apps (or the Android
+system itself) to restrict background
+data. Background data is all that
+internet traffic that goes on when
+you are not atually using an app:
+email syncing, feeds updating,
+weather widgets and so on.
+
+You can also tell the Android system
+to restrict background data in
+ <h5>Settings > Data usage > Restrict
+Background Data or for individual
+apps in Settings Apps  (depending
+on which version of Android you
+have). You can also change your
+sync settings for Google services
+in Settings > Accounts > Google
+>select the account  and then un-
+check the services you don't want to
+sync automatically.
+
+  <h5>Disable auto-updating apps </h5>
+Another huge drain of your
+data allowance comes from the
+occasional bout of Google Play
+app updating. If you have the Play
+Store set to auto-update apps, even
+Over a data connection, this could
+be chewing its way through your
+allowance every month without you
+even knowing.
+
+To check, go to the Play Store and
+Swipe out the left-hand navigation
+drawer. Tap Settings and at the top,
+you will see Auto-Update Apps. Tap
+this and make sure you either have
+it set to Do not auto-update apps or
+Auto-update apps over Wi-Fi only.
+To manage individual apps go to my
+Apps, select an app and then tap
+the overflow menu to check, or un-
+check Auto-Update.
+
+   <h5>Put some music on your phone </h5>
+Streaming services like YouTube
+Spotify, Vine and other video and
+music sites are huge data killers
+If there a tune or album you are
+Constantly listening to at the gym
+or on the way to work, you will use
+much less data by loading it onto
+your phone and listening to it offline,
+than endlessly streaming it from the
+web.
+
+If your phone does not have a
+micro SD card or enough space
+in its internal memory for you to
+Save music, you can use a micro SD
+adapter. Alternatively, you can save
+music for offline listening. It will
+not require as much space on your
+phone and is easy to get rid of or
+replace later. If you Can curb your
+streaming cravings, even just a little,
+you will see a huge reduction in data
+Consumption.
+
+   <h5>Identify and limit/remove high
+consuming apps</h5>
+
+In Settings > Data usage you can
+get a look at the apps which are
+Consuming the most data both in
+the foreground and the background.
+This can be really useful for knowing
+which apps you should restrict.
+
+Take Gmail, for example. On my
+phone, it has downloaded 451 MB of
+emails in the background. If I felt I
+did not use the app enough to justify
+that much data use, I Could remove
+the app, limit how often it syncs
+or prevent it from downloading
+attachments, all of which would
+reduce data consumption.
+
+<h5>Do not upload, download or send
+pictures or videos</h5>
+
+A single minute of high definition
+footage captured on a modern
+smartphone can take up as much
+as 200 MB of data. Single photos
+Can easily exceed 40 MB. Do not
+even think about uploading these to
+Facebook, or downloading pictures
+and videos from friends, unless your
+mobile data plan can handle it.
+
+ <h5>Make use of Wi-Fi hotspots</h5>
+Open Wi-Fi networks are a great
+way to save data when you are
+out and about. More restaurants
+and eateries are providing Wi-Fi
+connectivity all the time and these
+hotspots are easy to find on your
+android device.
+
+In your Wi-Fi menu (easily found
+with a two-finger downward swipe
+from the top of your phone on
+Lollipop/Marshmallow) any Wi-Fi
+access point which does not feature
+a lock icon is open and has the
+potential to be accessed without
+entering any details or passcodes.
+Simply tap one such hotspot when
+you see it to connect. There is a
+potential for people to listen in on
+your online interactions over these
+networks - but this just means you
+should exercise caution. Do not
+enter sensitive information in such
+Situations, or access private material
+Or if do wish to do this, you could
+make use of a VPN app to keep you
+private and secure.
+
+ <h5>Share photos, videos and other files
+via Bluetooth</h5>
+As we mentioned in point 10, just
+receiving photos and videos can
+consume a lot of data. But transfers
+over mobile network is not the only
+way to send files. Thanks to the
+magic of Bluetooth, you can quickly
+nd easily send relatively large files
+to others in your vicinity without
+using any data at all.
+
+Of course, proximity is one of the
+limitations of Bluetooth, but when
+the intended recipient is close by,
+this could be a huge data saver.
+
+To send something via Bluetooth
+you must navigate to the item you
+wish to send and then hit the share
+button (looks like this) or select
+share from the options menu. The
+way to do it will depend on the item
+you are sending.
+
+Next, select the Bluetooth icon.
+If your Bluetooth is not enabled,
+you may be prompted to enable
+it. Finally, you must select the
+destination device from a list of
+nearby Bluetooth-enabled gadgets.
+Note that the destination device
+must also have Bluetooth enabled,
+and you must know it's name to find
+it in the list.
+

@@ -1,0 +1,15 @@
+ <h5>How To Use Wifi Hotspot?</h5>
+ <ol>
+<li> From the Home Screen, select the
+Settings menu.</li>
+<li> Click on MORE and then Tethering
+and portable hotspot.</li>
+<li> Then Check the box Wifi Tethering.</li>
+<li>Then Click on Set up WI-FI hotspot.</li>
+<li> Then Set User Name and Password.</li>
+<li> Now Turn On Your Laptop WiFi.</li>
+<li> You will See that your Hotspot
+Wifi will Appear in your Laptop WIFI
+Settings.</li>
+<li> Now Connect and Enjoy.</li>
+</ol>

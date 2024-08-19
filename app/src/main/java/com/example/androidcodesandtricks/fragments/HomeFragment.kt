@@ -16,6 +16,7 @@ import com.example.androidcodesandtricks.R
 import com.example.androidcodesandtricks.activity.AndroidTricksActivity
 import com.example.androidcodesandtricks.activity.MobileTipsActivity
 import com.example.androidcodesandtricks.activity.SecretCodesActivity
+import com.example.androidcodesandtricks.activity.SettingsActivity
 import com.example.androidcodesandtricks.adapter.TrendingListAdapter
 import com.example.androidcodesandtricks.databinding.FragmentHomeBinding
 import com.example.androidcodesandtricks.model.TrendingListModel
@@ -85,7 +86,8 @@ class HomeFragment : Fragment() {
 
         binding.ivSettings.setOnClickListener {
 
-            toast("info", "Settings")
+            val intent = Intent(context, SettingsActivity::class.java)
+            startActivity(intent)
 
         }
 

@@ -1,0 +1,38 @@
+<h5> How To Improve Android
+Battery Timing?</h5>
+<ol>
+<li> Reduce screen brightness</li>
+<li> 0 Don't use Live Wallpapers</li>
+<li>Use black wallpaper or black theme</li>
+<li> Remove home screen widgets that
+you don't need</li>
+<li> Keep your battery away from extreme
+heat</li>
+<li> Disable Auto Sync
+To turn of auto sync, go to Settings
+-> Accounts and Sync -> uncheck the
+Auto-sync'.</li>
+<li> Turn off Wi-Fi when not in use</li>
+<li> Disable haptic feedback.
+To disable haptic feedback, go to
+SettingS -> Sound. Scroll down to
+system and uncheck Haptic feedback.</li>
+<li> Turn off location services.
+To turn off location services:
+Tap Settings -> Location services.
+Uncheck all the boxes available.</li>
+<li> Disable auto updates for widgets
+To disable a widget's automatic updates:
+Open the widget and press Menu ->
+Settings.</li>
+Tap on auto refresh and choose None
+If you can't customize the widget and
+it's something you can live without, we
+suggest you to remove it from the home
+Screen. To do that:
+Press and hold down the widget until it
+is highlighted.
+Drag the widget to the trash icon to
+remove it from the home screen.
+</ol>
+

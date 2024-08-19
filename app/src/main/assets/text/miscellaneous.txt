@@ -1,0 +1,90 @@
+ <h5>Facts about Android.</h5>
+
+More than one billion mobile phones are
+powered by Android operating system.
+
+<ul type = "1">
+   <li>The Android operating system was
+developed by Android Inc in 2004
+backed by Google. Later Google bought
+it in 2005 at a price of $50 million.</li>
+
+<li> Android operating system wasS
+developed as a platform tor digital
+cameras.But the makers later changed
+their focus to smart phones as they saw
+its potential</li>
+
+<li>  Google launched Android operating
+system in 5 November 2007 which is a
+Linux based software system.</li>
+
+<li>  HTC Dream or T Mobile G1 is the first
+ever smartphone to run on the Android
+operating system, this mobile phone was
+released in the year 2008.
+
+<li> Google Android operating system,
+has attained over a billion activations on
+devices like smartphones and tablets.</li>
+
+<li>  Except Android 1.0 and 11, all the
+other android versions are named after
+sweet treats like Jelly Bean, Ice cream
+sandwich, Honeycomb to name a rew.</li>
+
+<li>  Android operating system has been
+released in a lot or versions, where
+every release has been following an
+alphabetical order in naming. the
+names are Android Astro (I.0), Bender
+1.D, Cupcake (1.5), Donut (I.6), EClair
+(2.0), Froyo (2.2.x). Gingerbread
+(2.3.x), Honeycomb (3.0), Ice Cream
+Sandwich (4.0.x), Jelly Bean (4.x))
+and kitKat (4.4), Lollipop 5.0-5.1.1
+Marshmallow 6.O To 6.0.1, Nougat 7.0 TO 7.1.2, Oreo (8.0), pie (9.0).</li>
+
+<li> Do you know that Android is open
+source Since google is a member of
+open Handset Alliance (OHA), It has
+given users or interested people the
+option to modify Source code of the OS.
+This has allowed manufacturers to add
+features to the OS.</li>
+
+<li> Human with a robot appearance is the
+meaning of the Word Android. It refers
+to a male robot. Genocide is the female
+looking robot.</li>
+
+<li> Android is Andy Rubin who is the
+co-creator of Android, it was the name
+given to him at Apple before joining
+Google, for his obsession and love for
+robot</li>
+
+<li> There is a Android running device in
+space NASA equipped Floating space
+robots WIth NexusS S handsets. these
+devices run on Android Gingerbread.</li>
+
+<li> Most of the people think that the
+name of Android's logo character is also
+Android, but its not true. The actual
+name of Android Mascot is Bug android,
+though this is hot official, Google team
+call it by this name.</li>
+
+<li>  One of the best parts of being an
+Android owner is its apps. its app store
+"Google play" has more than 48 billion
+app installs, of which most of them are
+free.</li>
+<li>  Now Android is used to power
+    devices like Google Glass, Watches and so on.
+    15.  For the launch of its latest version, it
+    took a proper brand name. </li>
+ </ul>
+
+

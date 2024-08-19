@@ -1,0 +1,70 @@
+ USB OTG, USB on the go is a standard
+that enables mobile device to talk
+to one another. traditionally mobile
+mobile device could only connect to a
+Mac/PC by USB, but USB OTG makes it possible
+ror devices to connect directly to each
+other,
+
+ <h5>How do I know if my Android device
+supports USB OTG?</h5>
+
+USB OTG has its own logo, which
+should be on your devices packaging
+if its supported. If you do not have the
+original packaging hand, you can use search
+with the device model on google to find
+this information.
+Generally, i your smartphone was
+released within the last two years, it will
+Support It.
+
+ <h5>What can I do with USB OTG?</h5>
+Connect a mouse or keyboard
+
+Just plug in a USB mouse and you will
+automatically see its cursor appear on
+your display. this is also a great way
+to use your device it the touchscreen
+is broken. Alternatively, connect an
+external keyboard to turn a tablet into a
+laptop.
+Connect a USB storage drive
+
+You can connect to storage devices such
+as USB sticks or external hard drives
+With USB OTG. Using a file manager on
+your device, you can directly access
+data on an external storage device and
+play movies or music without having to
+store them on your phone.
+
+ <h5>Connect a game controller</h5>
+Using a wired Xbox 360 controller is
+an easy way to do this: just connect it
+to your phone with a USB OTG cable
+launch a game and it should work right
+away, no configuration required.
+
+ <h5>Use your broken smartphone from a PC</h5>
+Display is broken but you can still see
+the display
+If you have broken your touchscreen but
+the display is still working (you can see
+it), you can fix this by using a USB OTG
+and a mouse connected to your device.
+
+Once you have connected the mouse,
+you can unlock your device regardless
+of whether you have a pattern, PIN
+or password. We recommend using
+passwords anyways because they are
+highly secure.
+
+Now that your phone is unlocked, you
+can connect it to your computer and
+either transfer the data you need to your
+microSD memory or connect it directly
+to your PC and transfer the files there.
+
+

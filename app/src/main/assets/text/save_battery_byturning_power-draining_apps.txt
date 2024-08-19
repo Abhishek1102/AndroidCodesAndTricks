@@ -1,0 +1,26 @@
+Select App category from the list
+Swipe the screen to change the
+category from Internal storage to
+Running application list
+Image show's a Running application list
+Now select and "stop" the application
+which is unnecessarily running and
+draining your device battery
+
+your battery is dying too quickly, it
+might be because of background apps
+that you forget are running. Beefing up
+your battery life can be easier than you
+think.
+
+<h5>Navigate to Settings>>Apps>>then
+swipe to the running tab</h5> . You'll see the
+apps that are using the most processing
+and battery power. If you don't use a
+high-power app very often, simply tap
+the app and then tap the quit button.
+Getting rid of energy-sucking apps
+should give you a small boost to your
+battery life.
+
+

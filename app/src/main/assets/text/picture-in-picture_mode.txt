@@ -1,0 +1,32 @@
+ <h5>Picture-in-Picture Mode</h5>
+
+Android new picture-in-picture mode
+lets you minimize videos so you can
+multitask.What this essentially means
+is that you can video call someone
+or watch a video on YouTube while
+checking your email or doing other work
+in the background.
+
+To enable Picture-in-Picture mode,
+follow the steps below:
+Head over to your Android Settings
+and tap on Apps & Notifications.Once
+there, tap on Advanced to reveal more
+options.
+Now,tap on the Special App Access
+option.Once there, a new list of special
+access controls available to various apps
+will open up.
+
+Select Picture-in-Picture from the list
+You will now be presented with
+a list of all the apps that support
+picture-in-picture.Simply tap on the
+desired app and enable the toggle next
+to Allow picture-in-picture.
+
+You can now use the Picture-in-Picture
+mode for the apps that you wish to.
+
+

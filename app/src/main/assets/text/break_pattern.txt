@@ -1,0 +1,46 @@
+ <h5>Unlock Locked Pattern
+Without Losing Data?</h5>
+ +Download (Aroma File Manager).
++A memory card for android device.
++ Your android devIce either locked by
+pattern lock or password lock.
+ 1. 0 After download Aroma File Manager
+place it in your memory card (SD card).
+Insert the memory card into your locked
+android device.
+ 2. 0 Open Stock Recovery Mode with
+reboot your android device and
+pressing Power Key and Volume up key
+simultaneously.
+Different phones may be have different
+methods to open stock recovery mode
+so if you face any problem Google it.
+ 30 . After entering into recovery mode use
+Volume+ and Volume- buttons to scroll
+up and down.
+For select use middle button.
+ 4. 0 From there click on "lnstall Zip from
+SD Card" and give path to install "Aroma
+File Manager" from SD card.
+ 5. 0 After installing, it will open in recovery
+mode.
+ 60 . From the Aroma File Manager
+navigate to settings >> go to bottom
+and click on "AutoMount all devices on
+start" and then exit.
+ 7. 0 Repeat Step 4 and 5 again.
+ 8. 0 After this you will get "Aroma File
+Manager" opened again.
+ 9. 0 Now navigate to Data Folder >>
+System Folder and find >> "gesture.key"
+or "password.key" for pattern lock or
+password lock respectively.
+ 10. 0 Delete that any one file and then exit
+aroma file manager and reboot your
+android device.
+After rebooting you will notice that
+password or pattern lock not removed.
+But don't worry draw any pattern and
+you will open your android device but
+remember or note that pattern.
+

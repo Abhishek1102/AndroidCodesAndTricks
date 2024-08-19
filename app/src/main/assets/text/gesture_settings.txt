@@ -1,0 +1,84 @@
+ <h5>Long press on notifications to access
+the app's settings</h5>
+Many of you may know that if you slide
+a notification message to one side, it will
+disappear. However, you can do other
+things if you hold your finger down and
+select one of the buttons that appear on
+the right. This can be done both in the
+lock screen and in the notification bar.
+You will see the gear Box icon, which will
+take you to the settings and the "i"  icon
+will bring you to the notification settings
+Tor the app in question,
+
+<h5>Slide two fingers down to directly
+access the quick settings</h5>
+This trick has existed since Jelly Bean
+was around but it's well worth being
+reminded of. To avoid having to go
+through the notifications and access
+the quick shortcuts menu, just slide
+two fingers from the top of the screen
+downwards. Instead of doing the
+conventional motion twice, meaning the
+one finger swipe, and first needing to go
+through the app notifications, the user
+will quickly access the shortcuts to the
+basic settings of Android.
+ <h5>Double tap to select words for more
+Options</h5>
+Since Android 6.O Marshmallow came
+onto the scene, the usual copy and
+paste double-tap function has had
+an upgrade. Now, Just tap twice on a
+word, phrase or text and long press the
+selected contents. Next, you will get the
+option to copy and share, or if you press
+on the action overflow menu button
+three vertical dots, this will let you
+search for the selected text on the web,
+active Google Assistant and translate it,
+all without leaving the screen.
+ <h5>Easily access safe mode</h5>
+What exactly is safe mode? In a few
+Words, this mode boots the Android
+System Without showing the applications
+that you nave installed, so as if you had
+formatted the phone. this option is ideal
+if you are experiencing problems with
+Specific app. Furthermore, it's easy to
+access. Press the power button of your
+device for a few seconds. As soon as
+the turn-off screen appears, just keep
+pressing the power button for a few
+seconds. A new window will ask you if
+you want to restart the telephone in safe
+mode.
+<h5> Zoom in on any Screen</h5>
+Many applications allow you to zoom
+in on a Screen by placing two fingers
+on the screen and separating them but
+in other applications or even in most
+Systems, this action is not permitted
+however there is a workaround. Activate
+the function by going to Settings
+Accessibility > Magnification gestures.
+ Once activated, you click three times
+on the screen to Zoom in on where you
+want. to then slide from side to Side on
+the Zoomed in screen, you need to
+slide two fingers left and right. You
+can do a two finger pinch to adjust the
+zoom.
+<h5> Uninstall an app directly from the home
+Screen</h5>
+
+If you long press on an app icon on
+your nome screen, this Will allow you
+to uninstall it directly by then dragging
+the app to the word Uninstall that will
+have appeared. Previously, only the
+shortcut was deleted. This might change
+depending on the phone model and
+Android version.

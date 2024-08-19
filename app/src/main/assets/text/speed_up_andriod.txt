@@ -1,0 +1,155 @@
+ <h5>Make sure you're up to date</h5>
+
+The latest software will often contain
+bug fixes and general improvements
+and it can help your Android device
+to run better. Software updates tend
+come Over the Air and you should
+be automatically prompted to install
+them, but it doesn't hurt to check.
+
+<h5>Go to Settings> About device
+Software update  and check for
+updates.</h5>
+
+The same logic applies to apps
+so fire up the Play Store, open the
+menu at the top left and tap My
+apps and make sure all of the apps
+you use are up to date.
+
+ <h5>Clean up your home screen</h5>
+If you choose to use live wallpaper
+then consider replacing it with a
+good static image. You should also
+clean away any unused icons and
+limit yOur widgets to the essentials.
+The less cluttered your nome
+Screen is, the better in terms of
+performance
+
+
+ <h5>Uninstall and disable unused apps</h5>
+
+you don't want to allow apps that
+you never use to take up ace on
+your device and potentially eat into
+system resources. Go to Settings
+Apps  and swipe over to the All tab.
+Take a good long look down the list
+and identify the apps you don't want
+or need. If you're in doubt about
+what any of them do then it's time to
+hit Google and check.
+
+Tap on any app you don't want
+and then choose Uninstall or, if the
+option is not there to uninstall, tap
+Disable. Disabled apps will be listed
+in a new tab, so you can always
+enable them again in future if you
+change your mind.
+
+Ou should also take a look in
+Settings > Apps  at the Running
+tab. Some apps want to be running
+all the time and they can seriously
+impact on performance. Think
+carefully about whether you need
+what's listed there.
+
+ <h5>Turn off or reduce animations/<h5>
+You can make your Android device
+feel snappier by reducing or turning
+off some of animations. You'll need
+to enable Developer options in
+order to do this. Go to Settings >
+About phone  and scroll down to
+the System section to look for Build
+number.
+tap on it seven times and you
+should see a message about being a
+developer. You can now go back to
+the previous menu and you should
+see Developer options listed under
+System. Head in there and scroll
+down to find Window animation
+scale, Transition animation scale, and
+Animator duration scale. tap each in
+turn and set it to.5x or off. Pick an
+option and find out what suits you,
+if you don't like just go back in and
+change the values again.
+
+ <h5>Clear cached app data</h5>
+Cached data for apps should help
+them to load more quickly, but it can
+build up over time to take up quite a
+lot of space and there will potentially
+be cached data in there for apps
+that you no longer use. Sometimes
+clearing cached data for an app can
+also help clear up flaky behavior.
+
+If you want to pick individual apps
+then head into  Settings> Apps  and
+slide over the All tab and tap on
+the relevant app then choose Clear
+Cache. If you've decided to just clear
+the whole lot then go to  Settings>
+Storage  and tap on Cached data and
+then tap OK.
+
+ <h5>Turn off or reduce auto-sync</h5>
+Most of us end up adding a list
+of different accounts to our
+Android devices and we allow
+them to automatically sync in the
+background to pull in new data
+and provide us with updates. All
+this syncing has a big impact on
+performance, not to mention battery
+life.
+
+You could go to Settings and find
+Auto-sync under Accounts and
+just turn it off altogether, but that
+will be too drastic for most people.
+Instead why not just reduce the
+sync frequency and remove any
+accounts you dont really need? For
+a lot of apps, like Facebook, you'll
+need to open up the app and find
+the settings to reduce the sync
+frequency.
+
+ <h5>Wipe cache partition</h5>
+The cache partition is separate from
+your app data cache and it contains
+temporary files. It's worth cleaning
+this out every once in a while. You'll
+have to boot into recovery mode
+to do it. The method of entering
+recovery mode varies depending on
+your device, but you'll find it easily
+with a quick Google search. Once in
+recovery mode you use the volume
+keys to navigate and the power
+key to select an item. You'll want to
+choose wipe cache partition.
+
+ <h5>Perform a factory reset</h5>
+this is a drastic step, but some
+people recommend that you do
+a factory reset periodically if you
+want yOur devIce running in good
+Condition. It's a shortcut to cleaning
+up your device and getting rid or
+any Junk you've accumulated, but
+it means wiping all of the data and
+Settings. if you decide to try it then
+make sure you back up everything
+that's important to you first. You can
+find the option to do it in Settings>
+Backup & reset> Factory data reset.
+

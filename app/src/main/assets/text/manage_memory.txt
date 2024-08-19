@@ -1,0 +1,101 @@
+ Android phones and tablets can
+fill up quickly as you download
+apps, add media files like music
+and movies, and cache data for use
+offline. Many lower-end devices
+may only include a few gigabytes of
+storage, making this even more of a
+problem.
+The less space you have, the
+more time you will have tO spend
+managing the internal storage. If you
+find yourself regularly running out of
+space and needing to manage it try
+following suggestions
+
+ <h5>Use Android Built-in Storage Tool</h5>
+To find this, open the Settings
+Screen and tap Storage. You can
+see how much space is used up by
+apps and their data, by pictures
+and videos, audio files, downloads,
+Cached data, and miscellaneous
+other files. Tap downloads to view
+download list where you can remove
+files and tap cached data to clear
+the data of all installed apps. Use
+the other options to view which files
+are taking up space and remove the
+ones you do not want.
+
+
+<h5>See Which Folders and Files Are Taking
+Up the Most Space</h5>
+You can delete them right from within
+the Disk Usage app to see up space. For
+ maple, you might see a leftover folder
+from a game or app you've uninstalled.
+app should have removed that
+data, but you can do it by hand with this
+app. Select a folder or file, tap the menu
+button, and tap Delete to remove it.
+
+<h5> Add an SD Card and Move Data There</h5>
+
+If your phone or tablet does have a
+micro ot, you can purchase
+ to gain more storage.
+Artery installing the  D card, format it
+as port e or Internal Storage then
+connect your device to yur computer
+and move your music,  , and other
+files to the  D card's free space.  D
+card will be seen as local storage on that
+device. The system will determine which
+apps make the most sense to move to
+the  D card, then go ahead and move
+them over. You can't discern between
+true internal storage and an  D card
+ formatted for internal use, so there s
+now a way to manually move individual
+ pps over.
+
+If you are running a pre-Marshmallow
+version of Android, you can move Some
+apps using Android's built-in features.
+
+ <h5>Move Photos to the Cloud</h5>
+Rather than storing Photos on your
+phone, you could use an online account
+ ke Google photos, Drop x, Microsoft
+OneDrive, Flickr, or something else.
+google Photos is integrated into the
+ app on your Android device
+and offers unlimited storage of photos.
+You can access them from within the
+Photos app.
+
+
+ <h5>Clear Data of Apps taking much size</h5>
+This will clear up all of the data related
+to an application. If you erase the files
+for an app like Facebook, you  have
+to re-enter the passwords again. This is
+something to use with precaution. For
+example, saved games will probably also
+get erased.
+
+ <h5>Empty the cache</h5>
+This is also a domain that requires
+common sense. In fact, what we are
+about to do is delete the cache for
+certain apps that are taking up a lot of
+room. The cache, like mentioned before,
+is a type of library where your apps
+store their files to retrieve later on. It can
+be emptied from time to time.
+
+Emptying the cache will allow you to
+block an application that does not
+work anymore, like Google Play after its
+failed update.

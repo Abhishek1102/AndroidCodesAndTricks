@@ -1,0 +1,140 @@
+ <h5>How To Check For android System
+updates</h5>
+For Android users that are using stock
+ROM, you may want to look for new
+updates to your system. To check for
+updates:
+
+Go to Settings> about phone/tablet.
+
+Tap on System updates.
+
+Tap Check now to look for system
+updates.
+
+ <h5>Changing Default Apps</h5>
+If you have already set some default
+apps for particular tasks (e.g. using
+Chrome for opening web links) but wish
+to change this:
+
+Go to Settings > Apps.
+
+Swipe right and look for the all tab.
+
+Select the app you want to remove as
+default.
+
+Tap on Clear defaults.
+
+
+ <h5>Organize HomeScreen Shortcuts with
+Folders</h5>
+
+Once you have a lot of apps nstalled,
+your HomeScreen might be filled with
+app shortcuts. Unlike the app drawer
+the apps on your HomeScreen are not
+arranged alphabetically, so, you might
+want to create some folders for your
+HomeScreen shortcuts.
+
+Assuming you nave more than a
+handful of shortcuts already on your
+HomeScreen, long press on any of the
+shortcuts and drag it onto another
+shortcut
+
+A Circle should now appear around the
+apps, indicating that a folder has been
+created.
+
+By tapping on the newly created folder,
+a mini window will pop up With your
+apps in It.
+
+You can drag and drop additional apps
+into the folder if you like. You can also
+rename the folder by tapping on the
+text area at the bottom of the mini
+window.
+
+There are lots of alternate Facebook
+apps but many of those are just as hungry as the
+official version.
+even facebook lite, which claims
+to reduce data consumption by
+50 percent, still chews through hundreds of MB in a month.
+
+So why not try Tinfoil for Facebook
+which is Simply a web app that displays
+the Facebook wensite or you could
+Simply create a Chrome shortcut In your
+web browser. Just open Facebook In
+Chrome, open the overflow menu and select Add to Home screen.
+
+ <h5>Disable Animations</h5>
+Here a tip on how to make your Android
+device run a bit smoother: disable its
+animations. You will need to have access
+to Developer Options which can be
+found under settings or about device.
+
+Note: For some phones, you may need
+to go to Build number and tap on it
+repeatedly until you see You are now a
+developer. Developer options are now
+enabled.
+
+Under enabled Developer options, look
+for window animation scale, Transition
+animation scale, and Animator duration
+Scale. Then, turn them off (disable) them
+one at a time.
+
+ <h5>How to Turn Off Auto-Correction</h5>
+Hate the fact that your phone is going
+English teacher mode on your? turn off
+auto-correction for peace of mind when
+texting.
+Go to Settings Language & input.
+Tap on the settings icon next to the
+keyboard that you are using, e.g. Google
+Keyboard.
+Look for Auto-correction and tap on it.
+
+Select Off to turn auto-correction off.
+
+ <h5>Changing Network preference</h5>
+
+Many of today's devices run on the 4G
+network. Unfortunately 4G
+coverage is often spotty, and using it can quicKIy
+drain your phone's battery and put you
+Over your monthly data allowance. You
+might want to use the 4G network only
+in a well-covered area, or switch to 3G
+when you're running low on power
+Android makes it easy to do this. To
+Switch networkS, simply go to <h5>Settings
+>Mobile networks > Network mode</h5>  and
+set your phone to CDMA only (3G) or
+LTE/CDMA (4G). These settings might
+very depending on your location and
+which network you're on.
+
+ <h5>Flash message on lock screen</h5>
+If you have the misfortune of losing
+your phone, it's unlikely that you'll
+get it back. Even if someone wants
+to return it, password protection will
+keep them from accessing a number
+to reach you. With Android 4.1, 4.2 and
+4.3 (Jelly Bean), you can display your
+Contact information on the lock Screen
+to increase the chances of reuniting
+with a lost device. From Settings. go to
+Security> Screen security > Owner info .
+You can enter your name, email address,
+phone number or other information to
+appear on the lock screen.

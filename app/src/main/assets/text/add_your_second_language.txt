@@ -1,0 +1,17 @@
+ <h5>Add your second Language</h5>
+If you are equally fluent in two
+languages, then Android provides you
+the facility to give input in both the
+languages, which is obviously a great
+feature for bilingual users and also
+frequent travelers.
+To make use of the multi-locale
+feature, open Settings > Languages &
+input> Language preferences,  then
+select Add a language and finally pick
+your second language from the list of
+available languages. Then after, you
+can easily change the language in the
+on-screen keyboard by pressing globe
+or long-pressing spacer key.
+

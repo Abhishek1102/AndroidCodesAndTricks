@@ -1,0 +1,15 @@
+<h5> See your notifications even
+after clearing them.</h5>
+Have you cleared all your notifications
+without seeing them?
+There is a very simple way to see theem
+again.
+Go to widgets, grab the "settings
+shortcut" on to your home screen and
+select notifications there.
+Now you can see the Notifications
+shortcut on your home screen.
+Now open it, and you can see all the
+notifications.
+Path is Widgets > Settings shortcut>
+Notifications.

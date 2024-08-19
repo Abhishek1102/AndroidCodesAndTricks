@@ -1,0 +1,12 @@
+ <h5>Turn Off Battery-Draining Services</h5>
+Slide from top off your screen to the
+bottom of your home screen will give
+you Quick Options. These options vary
+from ringtone to power-savers like
+GPS, Wi-Fi, Bluetooth, mobile data, and
+airplane mode.
+
+If you are not going to be using Wi-Fi
+or GPS in the near future, this menu
+makes turning it easy to turn off these
+power-draining services.

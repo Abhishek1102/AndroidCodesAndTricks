@@ -1,0 +1,19 @@
+ <h5>Adjust Font and Screen Size</h5>
+With Android, you can adjust the size
+of the text and even that of non-textual
+elements, i.e., increasing or decreasing
+the ratio of the apps size (including bars
+and buttons) to the screen size per your
+display needs
+To adjust the size of the text shown
+anywhere in the user interface.
+Open the Settings app > select Display>
+tap Font size and move the slider to set
+the final font size.
+
+To adjust the size of the non-textual
+parts of the interface including drawer,
+bars and buttons, open the Settings app
+click Display> tap Display size and
+move the slider to set the size you want.
+

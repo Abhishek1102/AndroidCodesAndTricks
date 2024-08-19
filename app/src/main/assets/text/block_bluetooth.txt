@@ -1,0 +1,8 @@
+ <h5>How to Block Bluetooth?</h5>
+1. First of All Turn On your Bluetooth.
+2. Type the code *9990# In Dialer
+3. Then blocked your bluetooth
+4. If You want to Unblock Your
+Bluetooth Then Type *999O# Again in
+Dialer.
+Enjoy.

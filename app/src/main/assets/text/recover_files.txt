@@ -1,0 +1,255 @@
+<h5> How to retrieve lost files
+on Android: Your guide to
+Android data recovery</h5>
+Everyone knows the pain of
+accidentally deleting a file that they
+did not mean to. It's a heart-Sinking
+moment when you realize what
+you've done. Losing files is bad, but
+it's a part of life in the digital age. All
+is not lost, though, as there may be a
+way to retrieve your lost files. That's
+where Android data recovery comes
+in. Depending on the nature of the
+file, how thoroughly you deleted
+it, and how lucky you are, a few
+recovery methods may work. Here
+are some of the best techniques for
+retrieving lost files on Android
+See also: ul How to backup your
+Android phone
+ <h5>QUICK ANSWER</h5>
+To retrieve lost files on Android, you
+can use a few different methods to
+recover your lost files, from simply
+checking the recycle bin, checking
+your cloud backups, using recovery
+apps for PC or Android, and even
+Contacting the developer. However,
+it's important to remember that
+there is no guarantee of retrieving
+lost android files.
+ <h5>Stop using your phone
+and put it in Airplane
+mode</h5>
+Before you do anything else, the
+most important thing to know about
+Android data recovery is that you
+should stop using your phone as
+soon as possible. This will give you
+the best chance of getting your file
+back if it is lost.
+When you delete a file, the data
+isn't gone at all. Android just marks
+the space where the information is
+stored as "empty." That means you
+won't find the file, and Android will
+treat it as missing. It also means the
+slots that once contained that data
+are marked as ready to write over,
+should new files need space. Only
+when this happens,does the data
+really become lost, and you can't get
+it back.
+This is why it is so important that
+you stop using your phone and stop
+taking new photos or installing new
+apps. We would highly recommend
+that you put your phone in airplane
+mode. This way, you will prevent
+it from downloading emails,
+whatsApp photos, and updates.
+ <h5>Check your recycle bin</h5>
+If you are lucky, you Won't have
+deleted your files at all. Just like
+a PC, many Android apps have
+a recycle bin, meaning that files
+are not completely removed right
+away. for example, the Gallery app
+that ships with Samsung phones
+have such a safety net (this can
+also explain why deleting photos is
+not freeing up any space on your
+device
+To check the recycle bin, you need
+to return to the top level on the
+Pictures or Albums tab and tap the
+menu in the top right. This will open
+up a menu that includes a Recycle
+Bin option. Select it, and you'll be
+taken to a folder with all of your
+deleted photos.
+Other apps also have this option,
+Such as the popular file manager
+Astro File Manager. Whichever app
+you used to delete the file, check
+thoroughly to see if it has a recycle
+bin.
+ <h5>Check cloud backup</h5>
+Google Photos also has a bin
+that stores photos for 60 days,
+but it works a little bit differently
+by backing up your photos to
+Google Drive. This means even if
+you completely deleted a photo
+Via another app, it may still be
+salvageable via Google Photos.
+If you don't see your photo or
+video here, check the bin from the
+hamburger menu in the top left. If
+you still don't have any luck, then try
+visiting photos.google.com. Check
+the Trash folder from the hamburger
+menu too Even it you remove your
+photos from the bin in Google
+Photos, there is still a chance these
+changes haven't yet been reflected
+in Google Drive. So check quickly
+here, too. Something you may not
+know about Google Drive is you can
+ask it to back up any folder on your
+device. Just open Photos->Settings-
+Back up and Sync->Back up device
+folders.Of course, many other apps
+Such as Gmail will also store your
+files on the cloud by default.
+ <h5>How to retrieve
+WhatsApp photos</h5>
+If it's a WhatsApp photo you
+accidentally deleted, there are
+several options to try and get those
+photos back. First, check the backup
+built into WhatsApp itself. Head to
+Settings > Chats > Chat Backup.
+You should see some information
+telling you when the last backup
+was carried out. If it was recent,
+uninstall the app and reinstall it from
+the Play Store. This will then give
+you the option to restore your old
+chats and media. You'll also see the
+option to backup photos to Google
+Drive, so try looking here too if that
+option is enabled.But what if you
+accidentally wrote over your last
+backup? Even then, there is still
+hope. That's because whatsApp will
+keep several backup files on your
+device telling it which photos to
+retrieve from the servers. Use the file
+browser of your choice and head to
+WhatsApp->Databases. Here, you
+will see several files with names IIke
+store-2022-01-05.crypt12. Find
+the most recent one and rename
+it to store-1997.crypt12 (or
+whatever you like). Now WhatsApp
+will defer to the second most recent
+backup file when retrieving your
+photos.You can also look in the
+WhatsApp media folder in your
+Google Photos library to see if your
+photos are there. WhatsApp stores
+copies of the photos you send, as
+well as the ones you receive. So if
+you sent someone a photo but then
+deleted it from your phone's camera
+folder, there may still be a copy in
+the WhatsApp Media folder.
+ <h5>Try Android data recovery
+apps</h5>
+If neither of these steps worked,
+then you will need to start trying
+third-party solutions. Android data
+recovery apps can sometimes
+retrieve data that has been lost. It
+works by looking where data has
+been stored even when marked as
+deleted by Android. This is where
+it becomes important that you
+stop using your phone as much as
+possible to avoid corrupting the
+data that you're trying to recover
+It also means you're in a bit of a
+catch22, though, as installing a third-
+party data recovery app on your
+smartphone might cause you to
+override the files you're trying to
+save. To prevent this problem, you
+should always try using a desktop
+Computer recovery app first. We
+recommend Recuva as a good place
+to start. Install this app, and the
+Wizard will then take you through
+several steps to try and recover your
+lost files. This method of Android
+data recovery works a little better
+for files stored on memory cards
+instead of files that were stored
+internally.
+ <h5>Android data recovery
+services</h5>
+Depending on how desperate and
+wealthy you are, another option
+may be to use a data recovery
+service. These services offer to
+recover data from any device using
+various methods. For example, one
+company called On track promises
+"if data can be stored on it, we
+can recover it" and boasts a 90%
+Success rate. These companies need
+to collect your device in person and
+Will likely use a combination of the
+strategies listed here, along with
+the afferentIroned file restoration
+processes.The good news is you will
+only be charged if they assess that
+the file is recoverable. The only issue
+is they are a lot more expensive than
+other options on this list, so you
+need to think long and hard about
+whether you need those files.
+<h5> Contact the developer</h5>
+This is something of a long shot, but
+if your lost files belonged to a game
+or an app that you downloaded
+from the Play Store, then you may
+be able to get them back with a
+bit of help from the developer.
+That is because developers will
+manage (or at least have access
+to) the servers that contain cloud
+backups of files. Not only that
+but they may also know of some
+sneaky backups their apps make
+by default. Either way, there's a slim
+chance they will be able to retrieve
+the lost files from your account or
+provide directions to help you do
+So yourself.Unfortunately, there is
+never a guarantee to retrieve lost
+Android files. With a bit of luck and
+determination, though, there is at
+least a reasonable chance. But we
+want to end with a word of caution
+- losing files is a highly frustrating
+and emotional experience. When
+we're frustrated and emotional, we
+can sometimes make rash decisions
+
+smelt1 and do things we usually would
+not. So if you are thinking about
+spending hundreds of dollars on file
+restoration software that likely was
+
+smelt1 not work, or you have wasted hours
+trying to recover work that only you
+half an hour to create in the first place,
+maybe its time to get some prespective.
+any work you try to recreate will come
+quicker ( and probably better) the second
+time around. and you will still have memories
+to help make up photos you might have lost.
+just do not drive yourself mad over it.
+Read more: ul 10 best Android backup apps

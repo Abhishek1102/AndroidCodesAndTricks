@@ -1,0 +1,13 @@
+<h5> How To Enable Screen
+Magnifier ?</h5>
+<ol>
+People with weak Eyesight often have
+no idea how much this feature can help
+them.
+Just Follow these steps
+<li> Go to Setting</li>
+<li>  Accessibility</li>
+<li> Magnification Gesture.
+Enjoy.</li>
+</ol>
+

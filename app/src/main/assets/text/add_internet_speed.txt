@@ -1,0 +1,29 @@
+<h5>Indicator in Android Phones</h5>
+You can watch your real-time upload
+and download speed on your phone.
+All you need to do is download Internet
+Speed Meter app on your phone. You
+can also track your daily data usage with
+the help of this app.
+Its not just a speed meter app. It's a
+complete package to track your internet
+data usage on per app basis. Yes, you
+do get daily internet usage report, but
+along with that, you also get complete
+information about the Wi-Fi connection
+you're connected to. Information
+including Wi-Fi frequency, IP address,
+Link Speed, SSID and much more.
+<h5>Indicator in Xiaomi Phones</h5>
+If you are Xiaomi phone with MIUI 
+installed, well my friends, you don't
+need to install any type of app on your
+android phone.
+For enabling Internet Speed Indicator
+in MIUI 8 open your phone settings and
+select Notifications and status bar.
+Enable Show connection speed.
+Now you see network speed indicator in
+your Xiaomi Phone.
+
+ 

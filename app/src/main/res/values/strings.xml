@@ -10,4 +10,31 @@
     <string name="device_info">Device Info</string>
     <string name="country_codes">Country Codes</string>
     <string name="android_tricks">Android Tricks</string>
+    <string name="warning">Warning</string>
+    <string name="some_mobile_companies_do_not_allow_to_use_of_those_codes_and_they_might_not_work_on_you">Some mobile companies do not allow to use of those codes and they might not work on you</string>
+    <string name="settings">Settings</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_content">
+        <![CDATA[
+        <b>Privacy Policy</b><br/><br/>
+        <b>Introduction:</b><br/>
+        This Privacy Policy explains how Android Codes and Tricks collects, uses, and discloses information about you when you use our mobile application ("App").<br/><br/>
+        <b>Information We Collect:</b><br/>
+        - Personal Information: We do not collect any personally identifiable information.<br/>
+        - Device Information: We may collect information about your device, including device model, operating system, unique device identifiers, and other diagnostic data.<br/>
+        - Crash Data: We use Firebase Crashlytics to collect and analyze crash data to improve our App.<br/>
+        - Usage Data: We may collect information on how you interact with our App to enhance your experience.<br/>
+        - Advertisements: We display Google Ads within the App, which may collect and use information to provide personalized ads.<br/><br/>
+        <b>How We Use Your Information:</b><br/>
+        - To improve our App and ensure a better user experience.<br/>
+        - To analyze and prevent crashes using Firebase Crashlytics.<br/>
+        - To display relevant ads through Google Ads.<br/><br/>
+        <b>Sharing Your Information:</b><br/>
+        We do not share your personal information with third parties except for the purpose of improving the App and displaying ads.<br/><br/>
+        <b>Security:</b><br/>
+        We take reasonable measures to protect your information but cannot guarantee its absolute security.<br/><br/>
+        <b>Changes to This Policy:</b><br/>
+        We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy in the App.<br/><br/>
+        ]]>
+    </string>
 </resources>

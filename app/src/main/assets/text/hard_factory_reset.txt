@@ -1,0 +1,21 @@
+ <h5>Hard Reset and Factory
+reset your android phone</h5>
+
+Android phone can be formatted in two
+ways
+1. Factory reset:
+In factory reset, your phone is being
+formatted to factory level.
+Means all the settings will go by default
+and all the internal data will be deleted.
+To factory reset a phone dial
+ "#**778O#*#*.
+2. Hard reset:
+To hard reset a phone dial
+*2767*3855#
+this will delete all the data (including
+internal and External SD data) as well as
+settings of android phone.
+Don't try this code for testing purpose,
+until you are not sure.
+It will not ask for any confirmation.

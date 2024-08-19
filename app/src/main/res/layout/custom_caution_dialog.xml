@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_12sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_5sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/caution_upper_rounded_layout"
+            android:orientation="vertical">
+
+            <com.example.androidcodesandtricks.customfont.CustomTextViewMedium
+                style="@style/white_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:includeFontPadding="false"
+                android:letterSpacing="0.05"
+                android:text="@string/warning"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <com.example.androidcodesandtricks.customfont.CustomTextView
+            style="@style/black_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:includeFontPadding="false"
+            android:text="@string/some_mobile_companies_do_not_allow_to_use_of_those_codes_and_they_might_not_work_on_you"
+            android:textAlignment="center" />
+
+
+        <LinearLayout
+            android:id="@+id/lv_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/primary_color_rounded_layout"
+            android:orientation="vertical"
+            android:layout_marginVertical="@dimen/_15sdp">
+
+            <com.example.androidcodesandtricks.customfont.CustomTextViewMedium
+                style="@style/black_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginVertical="@dimen/_6sdp"
+                android:includeFontPadding="false"
+                android:text="OK" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

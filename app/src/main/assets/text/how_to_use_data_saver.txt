@@ -1,0 +1,27 @@
+<h5> How to use Data Saver</h5>
+
+One of the key new features on Android
+is the new system-wide Data Saver
+mode that helps in reducing mobile data
+usage. The feature works by restricting
+apps from receiving or sending data
+in the background. Your frequently
+used apps will continue to have access
+to data in the background, but the
+frequency will be reduced to limit data
+usage. Another unintended positive side
+effect of using the Data Saver mode is
+that it leads to a slight improvement in
+battery life.
+Here's how you can enable Data Saver
+mode on your Android device:
+Head over to Settings-> Data Usage ->
+Data Saver.
+Toggle the switch on the top right
+corner to On, and you are done.
+
+In case you don't want mobile data
+usage to be restricted for certain apps,
+you can always whitelist them from
+the Data Saver mode by using the
+Unrestricted data access option.

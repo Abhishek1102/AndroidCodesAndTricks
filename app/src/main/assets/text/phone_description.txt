@@ -1,0 +1,11 @@
+ <h5>Get detailed information
+about phone status</h5>
+We can get the detailed statistics
+related to our device like phone
+information, battery information, usage
+statistics and Wi-Fi information by just
+dialing
+*#*#4636#*#*
+This is a handy USSD to get the details
+about battery usage, DNS check, Ping.
+Application time, usage time and so on.

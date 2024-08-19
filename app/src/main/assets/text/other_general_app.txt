@@ -1,0 +1,66 @@
+ <h5>Application not found for all apps on
+SD, why is that?</h5>
+ This is one of the major pitfalls
+of moving apps to SD-if the SD
+malfunctions or gets unexpectedly
+removed, it can break the app. Did you
+Unmount the card before removing
+it (in Settings>Storage)? Try going to
+Settings>Apps , select one of those
+apps, and see if you can Move to Phone
+Storage again. If that works, then tap
+Move to SD card afterwards to see if
+that fixes it.
+
+Otherwise, you may have to uninstall the
+app, then reinstall it again. I am not sure
+if the leftover app data on the SD card
+will get incorporated correctly into the
+reinstalled app, or if it will get confused
+
+ <h5>Restore my phone book contacts</h5>
+If you ever used G Mail, it means your
+contacts are synchronized in your
+Gmail account, if you want to restore to
+your new phone, follow this: put your
+Gmail account over your new phone
+and switch the synchronization to on
+position, once the synchronization
+completes you will see all the contacts
+will appear on your new phone.
+
+ <h5>Sound get lower when plug in
+headphones</h5>
+ Its a safety feature. Most phone
+manufacturers are applying that
+automatic volume re-leveling when
+plugging in headphones to avoid loud,
+sudden noises blasting into your ears,
+preventing damage/hearing loss.
+
+
+Samsung phones, for instance, not
+only do that, but they also add a very
+annoying (but very valid) warning
+pop-up when you try to go over
+a certain volume level while using
+headphones. It pops up once per reboot
+and there no way to disable, dismiss
+permanently, or ignore it.
+
+<h5> Disable Facebook Video Auto-Play On
+Android</h5>
+There is yet another Facebook feature
+that can be quite annoying: video
+auto-play. Not only do you not always
+want to see what people are showing,
+but this also uses up more of the data
+and battery of your Android. Here is
+how to disable this feature on Android.
+To do this, swipe to the furthest tab
+on the Facebook app for Android and
+tap on App Settings. Right there under
+the General Settings, tap on 'Video
+Auto-Play' and set it to Off. Of course,
+Facebook has it defaulted to On, but not
+anymore!

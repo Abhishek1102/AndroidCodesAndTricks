@@ -1,0 +1,84 @@
+ <h5>Android Apps for Remote Computer
+Access </h5>
+
+The emergence of Android and
+availability of innumerable apps has
+helped many of the users in many
+ways. One among those is sharing and
+accessing files and other data from your
+desktop. It is easier now than before-
+thanks to the remote connection and
+control applications. By establishing a
+remote connection with your desktop
+using your android phone, you can
+retrieve the files and share them with
+others. To access the desktop remotely
+you need android apps which are
+capable of establishing a connection.
+
+<h5> 1.TeamViewer for Remote Control</h5>
+
+TeamViewer is one of the most popular
+tools for transferring files from your
+android device to the desktop and
+vice-versa. The most amazing feature
+of this application is that you can
+access your desktop from anywhere.
+It allows you to access, edit, transfer
+the documents present in the desktop
+from anywhere. Besides these features,
+TeamViewer has the capability to access
+Computers behind proxy servers and
+firewalls. And also you can remotely
+reboot the computer.
+
+ <h5>The setup process of TeamViewer
+very simple which can be completed in
+just 3 steps.</h5>
+Go to Google PlayStore and download
+the Teamviewer for Remote control
+application for your android device.
+
+DOWNLOAD: Team Viewer for Remote
+Control
+
+ Go to TeamViewer's official website
+and download and install teamviewer
+full version on your system.
+
+DOWNLOAD: TeamViewer for PC
+
+ .  Now enter yours computer
+TeamViewer ID and password in the
+TeamViewer application on your mobile
+device and get connected instantly.
+
+<h5> 2. Splashtop 2 Remote Desktop</h5>
+
+splashtop is one of the best tool available in the market at the
+moment for remotely controlling the desktop.
+it is relatively new and is filled with  many interesting
+features. like team viewer, this tool also allow
+the user to access all the deskop very easily and quickly
+from anywhere and at anytime.
+using splashtop you can access all application on your desktop,
+microsoft office document, media library, full
+browser with flash and  also you can play 3D games
+
+ <h5>The setup process of this tool is similar
+to that of TeamViewer</h5>
+ .  Download and install splashtop 2
+Remote Desktop on your android
+device.
+
+DOWNLOAD: Splashtop 2 Remote
+Desktop
+ .  Download Splashtop Streamer from
+{{\field{\*\flint{HYPERLINK https://www.splashtop.com }}{\florist{https://www.splashtop.com\ul0\cf0}}}} and install it on
+your computer.
+
+Now enter your Splashtop account to
+establish a connection.
+
+
+

@@ -1,0 +1,107 @@
+<h5>1. Use a lock screen</h5>
+We know: using lock screens used to
+be a pain in the backside when all you
+wanted to do was see if you'd received
+any email. But now that you can use
+lock screen widgets there's no reason
+not to lock your phone properly with a
+Code, fingerprint, gesture or face. Newer
+Android devices come with fingerprint
+Scanners for a good reason: they keep
+your device secure, and are conveniently
+quick. Not using a lock screen is the
+Android equivalent of going out and
+leaving your front door open for
+burglars.
+
+ <h5>2.Hide your passwords</h5>
+Android's Settings > Security menu has
+an option to make all passwords visible,
+and while it means well it makes
+entering accurate passwords simpler
+- it's a security risk if you're entering
+passwords where you can be seen, for
+example when you're on the train or in a
+crowd. This one's best left disabled.
+
+ <h5>3.Hide and lock your apps</h5>
+A good app locker can be a real
+godsend not just for security reasons
+but for privacy protection and, to ensure
+kids can't wipe or move anything
+important. A locker such as AppLock
+can keep others Out or your photos
+Contacts, Facebook, your phone settings
+and anything else you might not
+appreciate them meddling With.
+
+<h5> 4.Track your phone with Android Device
+Manager</h5>
+This is more of a "what to do it you did
+not protect  your phone" tip: if it's lost
+or misplaced, android device manager
+can find it remotely lock it and in worst
+case scenarios, remote location tracking or
+location services on your device , through
+as if you do then ADM will not be able to
+find it if it goes missing.
+
+ <h5>5.Configure location services properly</h5>
+Make sure your device is tracking GPS
+properly: if it is not, it will be much
+harder to track With something like
+Android Device Manager if you misplace it.
+
+<h5>6.Check your app notifications and
+settings</h5>
+A recent report found that ten of the
+most popular, flashlight apps were
+asking for ridiculous amounts of power
+including the ability to track your
+location and even deleting apps and
+files. And of course it's not Just flashlight
+apps: lots of dodgy downloads are
+designed to harvest users data or con
+them into handing over financial details
+or actual money. Make sure you're on
+top of your apps permissions
+
+<h5>7. use messengers with encryption</h5>
+If your device encryption is on by
+default - that is, Scrambling your data in
+such a way it can't just be copied and
+looked at that doesn't mean the data
+you send over the internet is encrypted.
+To ensure your communications
+are private. use an encrypted
+platform Such as Telegram, whatsapp.
+facebook messengers etc. rather than
+unencrypted alternativesS.
+
+<h5> 8.Install updates</h5>
+Sometimes app updates are minor
+things that make no noticeable
+difference to anything at all, but
+Sometimes those updates contain
+essential fixes for security problemns
+that you can't see but that potential
+attackers can. People who do not
+update to the latest versions remain
+vulnerable, so its a very good idea to
+stay up to date With app and Android
+updates.
+
+<h5> 9.Pin the screen</h5>
+It you want to let Somebody read
+something- such as an AndroidPIT
+article in our app but don't want
+them jumping into something else,
+Screen pinning, which first appeared
+on Android Lollipop, locks the display
+to a single app. It isn't the most secure
+thing in the world it tells you how to
+undo it again right there on the Screen
+- but at least it prevents your friends
+or colleagues from accidentally nosing
+around your device. If they do it, you
+know they did it deliberately.

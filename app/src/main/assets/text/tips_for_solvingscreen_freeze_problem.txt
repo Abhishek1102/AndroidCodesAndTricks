@@ -1,0 +1,243 @@
+<h5>1. Reduce the Number of Concurrent
+Apps to Stop Phone Hang</h5>
+Each mobile phone comes has a limited
+amount of resources like memory (RAM)
+and processing power. If you Overburden
+the phone beyond the capacity of these
+resources, the phone may hang. So, you
+should try and minimize the number
+of concurrently running apps. There
+are a number of apps that run in the
+background. You can free the clogged
+memory by stopping the apps that you
+don't need at present.
+
+To see the list of currently running apps,
+go to Settings> Apps > Running App .
+
+<h5> 2. Keep All the Apps Updated</h5>
+Keep visiting the app stores like Google
+Play (if you have Android phone)
+and iTunes App Store (if you've an
+iPhone). Mobile app developers keep on
+improving performance of their apps.
+Therefore it is highly recommended that
+you regularly update all the apps as and
+when a better version is available. Latest
+versions of apps may be designed to
+use lesser memory and CPU power.
+
+ <h5> 3. Shut Down Your Mobile Phone</h5>
+Shutting down your phone every once
+in a while is a good idea because it
+wll completely refresh the memory
+of phone. when you will restart your
+phone, it memory will be free of all the
+unnecessary pieces of data that were
+Tingering on and occupying the memory
+space
+<h5> 4 Install Apps in External Memory (SD card)</h5>
+
+Most of the mobile phone users install
+all sorts of apps in their phones. When
+installing the apps, they don't pay much
+attention to where the app Is going
+to be installed and what impact it can
+have on the performance of the phone.
+In most cases, by default, the apps
+get installed in the, internal memory
+or the phone. Inis leaves lesser space
+ror the running the apps and that in
+turn causes clogged memory. If your
+phone hangs, it is advisable to install
+apps in the external memory (1.e. SD
+Card) of the phone. Usually the external
+memory Is larger than the internal
+memory. And external memory can also
+be easily expanded ir required (instead
+of 2 65 card, just insert an 8 65 card!).
+Ihererore, in external memory more
+apps can be easily instaled without
+clogging, the internal memory of the
+phone. his will save your phone from
+hanging.
+
+For this you can set the default write
+disk. Go  to Settings > Storage > Default
+write disk > Select SD Card.  Please note
+that this setting is available in slightly
+different location in different mobile
+handsets, So. vou may have to do a bit
+of look around.
+
+ <h5> 5. Move Installed APps from Internal to
+External Memory</h5>
+ You can always move the already
+installed apps from internal to external
+memory. As explained above, this Will
+give more internal memory space for the
+smooth running or the apps. AS a result
+your phone will not hang. Setting for
+moving installed apps is usually available
+under settings> Apps.
+Phone hang: Image showing how to set
+default write disk and how to move app
+to SD Card
+
+<h5> 6. Delete Unnecessary Apps<h5>
+You can also browse through the list
+of the apps installed in your phone.
+You might spot a few apps that you
+had installed once upon a time put you
+no longer require them. Uninstall such
+apps immediately. They stay idle in
+your phone and waste the all important
+memory space.
+
+ <h5> 7. Delete Unnecessary Data (like photos,
+Videos, Songs)</h5>
+ It you have stored images, videos and
+songs in the internal memory; you're
+really choking up the internal memory
+Space and that could very well become
+the cause of your phone hanging all
+the time. Go ahead, take a look at all
+the pictures, videos and Songs and
+delete the ones that you no longer
+need. Alternatively, first you can take
+backup of this data in your computer
+and then delete It from your phone.
+Photos, Videos and audio take up most
+or the space the phone or an average
+Smartphone user. And it is one of the
+common reasons why your phone
+hangs.
+
+
+<h5> 8. ldentify Resource Hogging Apps</h5>
+Some of the apps use much more
+memory than other apps. game apps
+(like Angry Birds) are among the top
+memory guzzling apps. You can check
+how much memory each of your apps
+are using. For this go to settings Apps
+(or Memory)> Running Apps.  Here you
+will be able to see which app is using
+exactly how much memory.
+Memory usage by various apps in
+Android.
+if possible, you may try a lighter
+alternative of an app that Is using a lot
+or memory. For example, It you use a
+news app and that app is eating up a
+lot of RAM; you may consider removing
+that app and install another news app
+from the app store.
+
+ <h5> 9. Install Antivirus Software</h5>
+Viruses are a menace. If your mobile
+phone is playing host to a virus, the
+Virus can considerably slow down your
+moblie phone. Neediess to say, you
+phone Will hang often. So, obviously
+you need an anti-virus. Although
+anti-virus software itself take up a lot of
+memory but it is better to have the virus
+removed.
+
+ <h5> 10.Give External Memory Some
+Breathing Space</h5>
+So far, we have been telling you about
+importance of installing apps on external
+memory . bit it should not mean that
+you choke up the external
+memory as well Keep some space free
+in external memory also so that apps
+Can easIiy store and read their relevant
+data. If external memory is also full to
+the brim that can also become the cause
+of phone hang.
+
+
+<h5>11. Use Factory Reset Option</h5>
+This should be your last resort. iT
+nothing else works and phone stills
+hangs, you can reset your mobile
+phone back to f\lang1033 a ctory settings. Use
+of this option will remove everything
+from your mobile phone. You will lose
+everything that would be there in the
+internal memory. And it will be gone
+forever. All the messages, contacts
+apps, bookmarks. photos, V i deos, songs,
+ringtone... everything will be deleted.
+E sentially, this option will make your
+phone just the way it was when it was
+produced in the  actory.
+
+ <h5>12. Increase Memory by Deleting
+Unwanted Data</h5>
+Do kno w  that almost every website
+uses cache to increase the page speed
+of a website? Whenever you visited
+website you phone automatically
+store which is also known as cookies
+and caches. hese unwanted data
+Will be stored in your phone memory
+which leads to decreasing the available
+memory for apps and other files.
+
+ Solution:
+This problem can solve easily from
+Serting.
+Go to setting>>Storage>>Click on the
+cache and click on the Ok to clear
+Caches.
+
+ <h5>13. Use external memory to save Songs
+and other files</h5>
+
+ To much use of phone memory  is
+ the main reason  to got phone hang.
+To solves the  hunging problem in your
+A ndroid phone  save your songs, Videos
+and otner dat a .
+You can move your files to the external
+me mory and by selecting external memory as
+defult memory helps to store phontos and
+videos which clicked by camera
+To make the external memory as default
+memory read second tip.
+
+<h5> 14. Factory reset options (Not
+Recommended)</h5>
+
+i personally do not recommend this
+method because it is not familiar with
+most of the Android users. Factory reset
+ is  the last method to delete all unwanted
+files which comes from   Browsers,
+websites, Apps e tc.
+Factory reset deleted all files, apps,
+ contacts, memos, so most of the
+android doesn't use this option.
+ Secure Process of Factory Reset:
+
+Factory process may delete your
+personal data like contacts, memos
+ so  you users must need to follow the
+secure process be ore per forming the
+ actor reset opt i on.
+
+Whenever you perform factory reset
+process never forgot to take Backup of
+All  y our files. You can move this ba ck up
+files to the external  SD  card.
+
+<h5> 15. Use Cloud Storage</h5>
+Use Clout storage to store your files
+which you want to save for the future.
+Store only those files in your memory
+Card which you needed every day and
+upload those files to the cloud storage
+which needed in the future.

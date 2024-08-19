@@ -1,0 +1,25 @@
+<h5> Automatically Free up Storage space</h5>
+To ensure that you don't run out of
+storage space on your Android device
+with photos and videos that have been
+already backed up, Google includes
+a handy 'Smart Storage' option. The
+feature ensures that when the system
+Storage space is running low, the OS
+can delete your backed up photos and
+videos to free up space automatically.
+This feature only works when you have
+set Google Photos to automatically back
+up your photos and videos.
+To enable Smart Storage, head over to
+ Settings -> Storage -> Manage Storage.
+Make sure to enable the Smart Storage
+ option from the menu that opens up.
+You can also decide whether the feature2
+should delete photos that are 30, 60 or
+90 days old from the Backed up photos
+& videos option.
+If you want, you can also manually free
+up storage space by using the free up
+space now option.
+

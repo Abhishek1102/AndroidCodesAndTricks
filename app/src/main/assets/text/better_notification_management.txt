@@ -1,0 +1,22 @@
+ <h5>Batter Notification Management</h5>
+With Android, you can manage certain
+kinds of notifications based on the apps
+they come from. Ignore ads. promotions
+and other irrelevant notifications and
+keep only the important ones that really
+require your attention.
+To do this, on any such incoming
+notification, long press on the apps
+notification > select the behaviour
+accordingly from the options. You can
+choose to silent the notifications or
+totally block them.
+If you tap on MORE SETTINGS(at the
+bottom, next to DONE), you can choose
+to:
+*Block all notifications from this app,
+*Show them silently.
+*Control what shows up on the lock
+Screen, or
+*Allow the app to override Do Not
+Disturb setting.

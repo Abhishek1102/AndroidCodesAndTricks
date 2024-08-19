@@ -1,0 +1,24 @@
+<h5> How To Control Your Laptop
+or Computer Via Your
+Mobile?</h5>
+ Now You Can Control Your Laptop oor
+Computer With your Android Phone.
+Just Follow me.
+<ol>
+<li> Install Team Viewer in Your Mobile and
+Computer.</li>
+ <li>After Installation Complete
+Open Team Viewer in your mobile and
+Computer.</li>
+<li> Now copy id of your computer Team
+Viewer id and Enter that id in your
+Mobile Team Viewer.</li>
+<li> Now Click on Remote Control.</li>
+ <li>Now it will Ask Password.Copy Your
+Computer Team Viewer Password and
+Enter in your Mobile Team Viewer.</li>
+<li> Now Press OK and Yes You Have
+DONE now.
+Enjoy.</li>
+</ol>
+

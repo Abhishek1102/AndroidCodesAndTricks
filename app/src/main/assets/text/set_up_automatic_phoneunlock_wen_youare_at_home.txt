@@ -1,0 +1,17 @@
+ Set up automatic phone unlock
+Smart unlock is a new feature in
+Android 5.0 Lollipop and higher one
+android operating systems. It removes
+your phone's PIN or pass code in certain
+locations you trust, like home or work.
+Go to Settings > Security > Smart Lock
+Trusted places and add to trusted
+places.
+
+If your device is running Android 4.4
+KitKat, there is a smart work around for
+this. Enable installation from third-party
+apps by going to Settings> Security>
+selecting Unknown sources.
+
+

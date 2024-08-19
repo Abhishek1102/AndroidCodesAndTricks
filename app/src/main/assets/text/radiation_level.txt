@@ -1,0 +1,67 @@
+<h5> Check the radiation level of
+Your Android<h5>
+Dial *#07# on your Dialpad, and press
+call button.
+If the results show SAR above 1.6W/Kg.
+Then change your mobile phone
+IMMEDIATELY.
+ What is SAR value?
+Many people have had trouble
+understanding maximum reported
+Specific Absorption Rate (SAR) values
+for wireless devices.
+SAR is measure of the rate of RF (radiofrequency)
+energy absorption by the body from the
+source being measured. SAR provides
+a straightforward means for measuring
+the RF exposure characteristics of
+wireless devices to ensure that they are
+within the safety guidelines set by the
+FCC.
+ <h5>How To Check SAR Value?</h5>
+There is a very simple process for SAR
+value check of any mobile phone. The
+user just needs to dial the USSD code
+*#O7# on their mobile phone and they
+Will be taken to the page where they
+can check the SAR value and other
+necessary information. The threshold
+imit for a mobile phone is 1.6W/kg, if
+the value of their mobile phone is lesser
+than this, then there are no issues using
+the phone, if it is higher, that could mean
+risk to the user's health.
+For other devices where the luxury of
+typing the number isn't available, users
+can just visit the website of the brand
+Of that specific device to learn the SAR value
+they can also visit the settings optio and find
+out the SAR value of that specific device from
+there. this information is usually present in the
+user manual of many such devices too.
+many people are still wondering what is SAR value.
+ <h5>Does Your Phone Fall Under
+The Radiation Threshold
+Limit?</h5>
+ How to check SAR value and what is
+SAR value are the two main questions
+that are being asked by people lately.
+Learn more in this SAR guide here.ln this
+day and age, technology has become
+a crucial part of a human being's daily
+life. Everywhere they go, whether it be
+at work or at home, they are surrounded
+by an array of devices that are meant
+to complete some task. The number of
+devices that an average human goes
+through a day is a lot and that number
+has just increased with time. These
+devices work electronically and also
+release electromagnetic radiation. When
+people are exposed to these radiations
+for a long amount of time, it could lead
+to them falling sick. People should keep
+a track of the number of radiations
+their devices emit. This can be done by
+checking the SAR value of the device.
+

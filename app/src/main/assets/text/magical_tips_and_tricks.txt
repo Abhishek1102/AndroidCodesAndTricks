@@ -1,0 +1,67 @@
+ <h5>See your notifications even after
+clearing them:</h5>
+Have you cleared all your notifications
+without seeing them? There is a very
+simple way to see them again. Go to
+widgets, grab the "settings shortcut"
+on to your home screen and select
+notifications there. Now you can see
+the Notifications shortcut on your home
+screen. Now open it and you can see
+all the notifications. Path is Widgets>
+Settings shortcut> Notifications.
+ <h5>Set warnings for data limits:</h5>
+
+Navigate to Settings menu and select
+the option 'Data Usage' to find the
+graph which clearly depicts the
+data usage in your device by all the
+applications. You can find the options to
+set warnings for data limits, set cycles
+for monitoring data usage and enable or
+disable data usage in your device.
+
+Mobile data usage has a lot to do
+with device's performance. There are
+many key features which need to be
+monitored so as to enhance the battery
+life of your android device. So keep
+an eye and play around with options
+like selective synchronization of data,
+selective mobile networks, switching
+from 2G to 3G whenever required etc.,
+these tips will help you increase the
+battery life on your device for sure.
+How to get better battery life on your
+Smart phone navigate to Settings>>Data
+Usage
+
+<h5>Get detailed information about phone
+status:</h5>
+We can get the detailed statistics
+related to our device like phone
+information, battery information, usage
+statistics and Wi-Fi information by just
+dialing #*#4636#*#* This is a handy U
+S S D to get the details about battery
+usage, DNS check, Ping, Application
+time, usage time and so on.
+
+<h5> Hard Reset and Factory reset your
+android phone:</h5>
+
+Android phone can be formatted in
+two ways: a) Factory reset: In factory
+reset, your phone is being formatted
+to factory level. Means all the settings
+will go by default and all the interrnal
+data will be deleted. To factory reset a
+phone dial #*#7780#*#. b)  Hard reset:
+To hard reset a phone dial *2767*3855#,
+ this will delete all the data (including
+internal and External SD data) as well
+as settings of android phone. Don't
+try this code for testing purpose, until
+you are not sure. It will not ask for any
+confirmation.
+

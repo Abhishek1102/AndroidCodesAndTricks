@@ -1,0 +1,25 @@
+ Your phone data usage can be tough
+to track. If your 4G network is quick
+enough, you could potentially be
+downloading files at the same speed
+as your home Internet. Luckily, Android
+comes with a packed-in data usage
+notification system.
+
+<h5> Avoid common data plan mistakes that
+could cost you big .
+First, navigate to Settings>>Data Usage.</h5>
+You will see a graph that displays your
+data usage, along with a yellow and red
+bar.
+
+The yellow bar designates when your
+phone will warn you about your data
+usage. The red is a hard cap on your
+data to avoid overage fees.
+
+The red line should be your
+Smartphones monthly data limit. If
+you don not know your data limit, you
+should contact your cell carrier as soon
+as possible.

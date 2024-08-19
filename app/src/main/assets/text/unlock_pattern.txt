@@ -1,0 +1,32 @@
+<h5>How to Unlock Android Lock
+Pattern Using Command
+Prompt</h5>
+<ol>
+<li> Connect your Android Phone to Your
+Computer.</li>
+ <li>  Open command prompt as
+administrator.</li>
+ <li> Now in command prompt window
+type the following code carefully exactly
+as it is and then press enter.
+adb shell cd /data/data/
+com.android.providers.settings/
+databases SQLite3 settings.db
+update system set value=0 where
+name=lock_pattern_auto lock; update
+system set value-0 where name=lock
+Screen.locked out permanently; .quit</li>
+<li>  Now you will some screen as shown
+below and then you can reboot your
+phone and now when your will start
+again then try unlocking your phone
+using any random lock pattern and it will
+Work pretty fine.</li>
+<li>  If you face any problem repeat same
+steps but instead of the above code
+try using adb shell rm/data/system/
+gesture.key and then press enter and
+now try rebooting your device to see if
+it worksS.
+Enjoy.</li>
+</ol>

@@ -1,0 +1,136 @@
+ Android gets a bad rap for short battery
+life. Make these Simple changes to
+your smart phone or tablet and follow
+these tips and tricks then you can have
+better and longer battery life on your
+smartphone.
+
+ <h5>1. Disable location history and reporting</h5>
+Global Positioning System (GPS) is
+a hug battery hog, as it harnesses
+data from the cell phone towers
+Wi-Fi hotspots, and phone's Global positioning
+system Chip,to find your location. the
+battery  use is directly linked to the GPS
+usage, the more your phone surveys you
+location, the more battery It consumes.
+
+Location history and location reporting
+are two GPS based services with
+Somewhat unclear motives. Google
+Help page says that, the services can
+be used in conjunction With any other
+Google Apps. You can dis\lang1033 a ble these
+two features which eat up your battery
+by heading over to settingsLocation
+Google Location services> Google
+Location History.
+
+<h5> 2. Disable Google Now cards</h5>
+Google Now is an unmatched personal
+assist and ,  it helps you in many  ways.
+But so m e o  ts Services w h ic h  Come
+in the form of informational cards are
+unnecessary and are responsible ror
+battery drain. when you travel to a place
+that Google recognizes as a place out of
+your usual routine then the card titled
+Nearby Places shows up.  t he Card
+comprises of nearby attractions and is a
+cool feature but if you want to save your
+battery then you better disable it. To
+disable them, head over to Google Now
+and then scroll down and tap the magic
+wand. Here, you can chose the cards
+and discard want all are not needed.
+ the GPS-reliant card will demand
+mot of your battery so its better to disable cards
+like near by places " and " travel to see a battery boost
+most of us . do not that these so r t o   features are
+present  in  our smartphone and miss ou t
+on better user experience.
+
+<h5> 3. WiFi scanning</h5>
+We all know that when Wi-Fi is left
+enabled, more energy is used. Many of
+us do not know that in Android even
+when Wi-Fi is disabled, a phone could
+ be searching for networks. to prevent battery
+drain, head to wifi setting> advance,  where you
+can un-check the option for wifi scanning.
+but you'll have to connect to wifi manually,
+but what you get in return is a longer battery life.
+
+ <h5> 4. Update all your Software</h5>
+It is needless to say that each firmware
+update brings features and fixes that
+Improves the performance o  the device.
+Each and every update helps in better
+management of power resource. Most
+of the Manufactures are giving updates
+for their mobiles. If you haven't updated
+it yet, head over to settings > About
+phone > System Updates  and check
+ver there for  update. say for example,
+the all new update from google for
+android OS include an update user interface, smart unlock
+features, a new battery-saving and a revamped
+ notification system.
+
+<h5>5. Selective Mobile Network is another
+Key point</h5>
+
+If you are not using the mobile data
+then why should we let it consume the
+precious battery life? You can change
+your  settings on your smart phone so
+that you can use only 2G networks for
+calls and messages, if your want to surf
+or browse then switch to 3G or LTE.
+You can save a lot of battery by doing
+so. You can toggle between 2G and 3G
+or LTE by following this path, Settings
+More> Mobile Networks > Network
+Mode.
+
+<h5> 6 .Apps that increase battery life</h5>
+Try to turn off auto updates on your
+device and manipulate the refresh
+intervals of the applications installed to
+preserve  b battery and get  b wetter  b battery
+ life  on your smartphone. Apps I ik e
+Battery Doctor and Greenery help you
+preserve battery. It you are not sure on
+how energy demanding an app is then
+these apps help you know which apps
+ consume more resource based on your
+usage and so that  y ou can relate on their
+Usage.
+
+<h5> 7. Selective synchronization of data</h5>
+For enhanced battery life it is important
+to  h ave a look at what is being
+automatically synced across all your
+devices. Say for example whenever you
+take a photo it would be automatically
+uploaded and result in huge battery
+drain. So to conserve your battery
+selectively choose on what all need
+to be synced. The path is <h4>Settings>
+Accounts> Google> Synchronization</h4>.
+
+<h5> 8.Adjust brightness levels</h5>
+The battery backup of your device
+depends on the  brightness  level you
+set. It is advised to set brightness
+to  " Auto "  in the Quick settings
+to conserve your battery .   t he
+path is Setting>Display>Adaptive
+brightness(enable).
+ <h5>9.Avoid heavy hitters</h5>
+Application like go launcher
+And theme, which are graphically
+intense consume a lot of RAM while running
+ and consume a lot of battery. We recommend
+  less intensive launcher such as Apex or nova to conserve your battery.
+

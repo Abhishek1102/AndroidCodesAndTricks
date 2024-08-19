@@ -1,0 +1,470 @@
+ <h5>The Facts About Android
+That You Should Know.?</h5>
+Android has been around for
+a little Over a decade and a lot
+has changed since the its early
+days.Android is a Mobile Operating
+System that was released on 23,
+September 2008. Android is free,
+Open-source operating system and
+is based on modified version of
+Linux kernel.open Handset Alliance
+(OHA) developed the Android and
+google commercially sponsored it. It
+is mainly designed for touchscreen
+devices such as smartphones and
+tablets. Android is supported on
+different platforms like 32- and 64-
+bit ARM, x86, and x86-64. Android is
+available in more than 100 languages
+with Graphical (multi-touch) as the
+default user interface. What started
+as a simple operating system has
+become a powerhouse spanning
+across Countless devices and form
+factors. The history of Android is an
+interesting story. You might think
+you know everything there is top
+know about Android, but we've got
+following things you probably didn't
+know about. Check it out!
+<h5> 1. Google didn't create
+Android</h5>
+Nowadays Google and Android
+are synonymous with each other,
+but you may be surprised to find
+out that was not always the case.
+Android was founded in 2003 by
+Andy Rubin, Rich Miner, Nick Sears,
+and Chris White. The founders
+had strong ties to T-Mobile. Andy
+Rubin created the ultra-popular -
+Mobile Sidekick, and Nick Sears
+Was vice president at T-Mobile. So,
+you can see why T-Mobile landed
+the first Android phone. It wasn't
+until 2005 that Google acquired
+Android Inc. Rubin, Miner, and
+White all stayed with Android
+through the acquisition. Together,
+they developed what we now
+know as the Android OS, in fact,
+Rubin's nickname is where the
+name "Android" came from. Many
+people consider Android to be one
+of Google's best acquisitions and 10
+years after the acquisition, Android
+has ballooned to control 88% of the
+smartphone OS market share.
+<h5> 2. Many critics thought
+Android would fail
+miserably</h5>
+Android is nearly universally praised
+nowadays, but back in the day
+critics were much more skeptical. At
+the time of Android's emergence
+the iPhone was still relatively fresh
+while Microsoft and Blackberry
+were busy leading the way in
+Smartphones. The idea of a web
+search and email company making
+phones didn't seem like a slam
+dunk. In late 2008 during a round
+table discussion about mobile the
+question was asked we have to talk
+about Android, right?" A member
+from Pandora adamantly responded
+"Why? Why do we have to talk
+about Android nobody cares.
+Obviously Pandora eventually Wised
+up and created an Android app.
+ <h5> 3. the first android prototype
+looked like a blackberry</h5>
+ many people believed that if it wasn't
+for the iphone the first
+Android device would have looked
+drastically different than the T
+Mobile G1 (HTC Dream). In 2007,
+before Apple showed off the original
+iPhone, the first Android prototype
+was already floating around. The
+device-codenamed "Sooner"
+had a portrait keyboard, call and
+end buttons, track pad, and no
+touchscreen at all. The Android
+Ul even closely resembled the
+Blackberry interface. Of course,
+all that changed once the iPhone
+was announced. It was so different.
+There was no physical keyboard,
+only a big display for its time
+and a revolutionary touchscreen
+interface. The next Android device
+we'd see after that the T-Mobile
+G1 would also have a big display
+with a touchscreen interface. The
+BlackBerry-esque prototype? It
+never came to market. We can't
+say for certain that the iPhone had
+any effect on Google's vision for
+Android, but it wouldn't be out of
+the question. Journey of ANDROID
+from first version to latest version:
+All Android versions are named in
+alphabetical order, along with the
+name of sweet deserts associated
+with that alphabet like Cupcake.
+Donut etc.
+ .  Android 1.0 (2008) No Version
+Name
+ . Android 1.1 2009)- Petite Four
+ . Android 1.5 (2009) Cupcake
+ . Android 1.6 (2009) Donut
+ . Android 2.0 2.1 (2009)- \'c9clair
+ . Android 2.2 2.2.3 (2010)- Froyo
+ . Android 2.3 2.3.7 (2010)-
+Gingerbread
+ . Android 3.0-3.2.6 (2011)
+Honeycomb
+ . Android 4.0 4.0.4 (2011) Ice
+Cream Sandwich
+ . Android 4.1 4.3.1 (2012) Jelly
+Bean
+ . Android 4.4- 4.4.4 (2013) KitKat
+ . Android 5.0 5.1.1 (2014)
+Lollipop
+ . Android 6.0 6.0.1 (2015)
+Marshmallow
+ . Android 7.0 7.1.2 (2016) - Nougat
+ . Android 8.0 8.1 (2017) Oreo
+ . Android 9.0 (2018) Pie
+ . Android 10 (2019) Android 10
+ . Android 11 (2020) Android 11
+ . Android 12 (2021) Android 12
+<h5> 4. Android 1.0 and 1.1
+weren't named after
+desserts</h5>
+For a long time Google has been
+nicknaming new versions of
+Android with desserts. At the time
+of this article we are at Android
+5.0 Lollipop, and before that it
+was KitKat, Jelly Bean, Ice Cream
+Sandwich, and so on. Android fans
+are always trying to predict what
+the next name will be. Google even
+got in on the fun with this teaser
+Video for Android 5.0. What you
+may not know is the first couple
+versions of Android actually weren't
+named after desserts. At least
+not intentionally. Android 1.0 was
+sometimes called "Alpha" or "Astro
+Boy" while Android 1.1 technically
+had a dessert name, but not in the
+order that we know today. It was
+known internally as "Petite Four,
+which is a small French appetizer.
+Android 1.5 "Cupcake" was the first
+version to have an official dessert
+nickname and so began the naming
+Scheme we see today. The "A" and
+"B dessert names for Android 1.0
+and 1.1 will never be known but if
+ we had to guess which names they
+would have used , perhaps  "apple
+pie" and banana split " are pretty
+obvious . what would you guess?
+
+ <h5>5. Android 3.0 is the only
+version to never run on
+phones</h5>
+ Today Android is built to run on
+many different types of hardware
+ConfigurationS in all shapes and
+sizes. Everything from phones,
+tablets, watches, cars, TVs- you
+name it. But that hasn't always been
+the case. In 2010, Apple announced
+the original iPad and the tech world
+instantly had tablet fever. Android
+manufacturers wanted to cash in
+on the tablet frenzy but at the time,
+the OS was only suited for smaller
+screened devices like smartphones.
+It didn't stop some manufacturers
+from giving it a shot. Samsung
+had some luck using Android 2.3
+Gingerbread on the mid-sized
+Galaxy Tab 7.0, but if Android was
+going to compete with the 10-inch
+iPad it needed a major Overhaul and
+at CES 2011, the world got its first
+look at Android 3.0 Honeycomb
+running on the Motorola XOOM.
+Honeycomb featured a completely
+redesigned user interface, one made
+especially for tablets. With a dark
+"Holo UI," and larger interactive
+widgets, the Android version was
+still considered a failure in some
+respects. While every manufacturer
+on the face of the Earth was
+making Android tablets, they were
+expensive and lacked proper tablet-
+dedicated apps. Google would
+eventually scrap Honeycomb and
+built future versions of Android
+starting with lce Cream Sandwich
+to work on all screen sizes. One of
+the lasting features of Honeycomb
+Is the on-screen nav buttons we still
+use to this day
+ <h5>6. First Android phone
+didn't even have a virtual
+keyboard or 3.5mm
+headset jack</h5>
+If you would go back to 2008
+and tell the world that nearly all
+smartphones in the future wouldn't
+have physical keyboards- you
+would be laughed at. During this
+time the most popular phone was
+a BlackBerry, which of Course had
+an iconic physical keyboard. The
+idea of a device without physical
+keys didn't become popular until
+the original iPhone, but even then
+there were many skeptics. In fact,
+the first Android device the T-
+Mobile G1 came equipped with a
+slide-out physical keyboard, but you
+might be more surprised to learn
+what it didn't have. The G1 shipped
+with Android 1.1 which, at the time
+didn't feature a virtual keyboard for
+typing on the screen. You absolutely
+had to use the physical keyboard to
+type, which meant you couldn't do
+any one-handed typing in portrait
+mode. It wasn't until six months
+later with the release of Android
+1.5 that the G1 finally added a
+virtual keyboard. The other feature
+lacking from the T-Mobile G1 was
+a big one that couldn't be fixed
+with a simple software update: the
+headphone jack. HTC inexplicably
+did not include a traditional 3.5mnm
+headphone jack in the G1. Instead,
+the phone came with a proprietary
+adapter you had to use meaning
+you wouldn't listen to music and
+charge the phone at the same time
+This was a common complaint in the
+initial reviews for the T-Mobile G1
+and strangely a foreshadowing of
+things to come
+ <h5>7. Android got Google's
+CEO kicked off Apple's
+board</h5>
+Over time as competition between
+iOS and Android has picked up,
+the relationship between Apple
+and Google wasn't so friendly.
+This was most evident in 2009
+when Google CEO Eric Schmidt
+was forced to resign from Apple's
+board of directors. Steve Jobs
+had this to say: "Unfortunately, as
+Google enters more of Apples core
+businesses, with Android and now
+Chrome OS, Eric's effectiveness
+as an Apple board member will be
+significantly diminished, since he will
+have to recuse himself from even
+larger portions of our meetings due
+to potential conflicts of interest."
+You can imagine there were a lot
+of sensational headlines about this
+story, but it makes a lot of sense.
+What good is a board member
+that can't be present at meetings
+due to a conflict of interest? The
+relationship between Google and
+Apple Continued to heat up as years
+went on, with Apple making the
+Controversial decision to remove
+Google Maps in iOs 6, resulting in
+Google later blocking Apple's Own
+3rd party YouTube app. Eventually
+an agreement would be met where
+Google would be allowed to offer
+their apps in the App store, even
+becoming the default search engine
+in iOS for the hefty sum or $3-4
+billion a year
+ <h5>8. WebOS could have
+destroyed Android</h5>
+As we've already covered, people
+were a bit skeptical of Android at
+the very beginning. WeboS on the
+other hand was universally praised
+when it was announced. At that
+time there were very few Android
+devices available and by the time
+WeiboS launched, Android 1.5 was
+still fresh and no one had even heard
+of the Motorola DROID. The timing
+was perfect for Webos to stomp
+out Android and become the true
+Contender to iOS, at least that's
+what critics believed. It might have
+actually happened too if it wasn't
+for a few strange decisions by Palm.
+They launched the first WebOS
+device on Sprint instead of one of
+the big carriers and the marketing
+Campaign was very strange to say
+the least. Still, the Palm Pre sold very
+well the first month, but suffered
+from a steep drop off after that.
+A Couple of months later verizon
+would announce the Motorola
+DROID and Apple was onto to
+the iPhone 3GS. Palm and WebOS
+fizzled out, Google continued
+to improve Android, and now it
+quickly dominated the world with
+its open platform. google would
+later hire the designer of webOS,
+matias duarte, to help improve
+android's interface and design. his
+first big contribution? android 3.0
+honeycomb's Holo UI.
+<h5> 9. Sony made the first
+Android smartwatch in
+2010</h5>
+In 2014, Google announced Android
+Wear, a special version of Android
+built especially for smartwatches.
+Since then we've seen a bunch
+of Android smartwatches flood
+the market. You might think that
+these are the first Android-based
+smartwatches to have been made,
+but one company beat everyone to
+the punch. Way back in 2010 Sony
+(Ericsson) launched the LiveView
+watch. It connected with Android
+phones to display Twitter timelines,
+RSS feeds, SMS, and control the
+phone's media player. Sony would
+later launch the SmartWatch 2
+in 2013 with many of the same
+features. It wasn't until around this
+time that Samsung launched their
+first Android-based smartwatch but
+Sony was first out the gate.
+<h5> 10. SOME MORE FACTS</h5>
+ 1 . The Android operating system was
+developed by Android Inc., in 2004
+backed by Google. Later Google
+bought it in 2005 at a price of $50
+million.
+ 2 . Android operating system was
+developed as a platform for digital
+cameras. But the makers later
+changed their focus to smart phone
+as they saw its potential.
+ 3. 0 Google launched Android
+operating system in November
+5, 2007, which is a Linux based
+Software system.
+ 4 The first smartphone running
+Android was released in 2008,
+the HTC Dream or T-Mobile G1
+depending on your country, it had a
+sliding keyboard.
+ 5. 0 Google's Android operating
+system, has attained over a
+billion activations on devices like
+smartphones and tablets.
+ 6. 0 Except Android 1.0 and 1.1, all the
+other Android versions are named
+after sweet treats like Jelly Bean,
+ice cream sandwich, honeycomb to
+name a few
+ 7. 0 Do you know that Android is open
+Source? Since Google is a member of
+Open Handset Alliance (OHA), it has
+given users or interested people the
+option to modify source code of the
+Os. This has allowed manufacturers
+to add features to the OS.
+ 8. 0 Human with robot appearance
+is the meaning of the word Android.
+It refers to a male robot. Genocide is
+the female looking robot.
+ 9. 0 Android is Andy Rubin who is the
+CO-Creator of Android, it was the
+name given to him at Apple before
+joining Google, for his obsession and
+love for robots.
+ 10. 0 There is an Android running
+device in space!! NASA equipped
+Floating space robotS with Nexus
+S handsets. These devices run on
+Android Gingerbread.
+ 11. 0 Most of the people think that the
+name of Android's logo character is
+also Android, but its not true. The
+actual name of Android Mascot is
+Droid, though this is not official,
+Google team call it by this name.
+ 12. 0 One of the best parts of being
+an Android owner is its apps, its app
+store "Google play" has more than
+92 billion app installs, of which most
+of them are free.
+ 13. 0 Now Android is used to power
+devices like Google Glass, Watches
+and so on.
+ 14 For the launch of its latest
+version, it took a proper brand name.
+ 150 . Google had to made a deal with
+Nestle in order to use the name "Kit-
+Kat" for Android version 4.4.
+ 16 Even Google Maps uses the
+speed of Android Mobiles to
+calculate the traffic on roads.
+ 17. 0 Microsoft earns around $2 billion
+yearly in patent royalties, from the
+sale of Android devices.
+ 18. 0 The sale of Android devices is
+more than the Combined sale of
+Microsoft Windows, iOS, and Mac OS
+devices.
+ 190 . In 2010, Anssi Vanja, CEO of
+Nokia, made a hilarious comment on
+android . he said the use of android
+is like a finnish boy peeing his parents
+to stay warm.
+ 20. 0 The Logging System of Android
+has a method named as "wtf)"
+which stands for "What a Terrible
+Failure".
+ 21 Android is an open source
+software, which means its source
+Code is freely available. Anyone can
+modify the source code and add
+new unique features.
+ 22. 0 Prior to Google, an offer
+was given to Samsung to buy
+Android Inc. but they find Android
+uninteresting and reject the offer.
+ 23 Android is written in many
+languages like Java, C, C++, XML,
+Assembly language, Python, Shell
+Script, Go, Make, D.
+Source: world wide web
