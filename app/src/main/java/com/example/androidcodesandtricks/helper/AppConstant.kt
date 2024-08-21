@@ -12,6 +12,13 @@ class AppConstant {
 
     companion object {
 
+        //admob test ads id
+        var APP_OPEN_TEST_ID = "ca-app-pub-3940256099942544/9257395921"
+        var ADAPTIVE_BANNER_TEST_ID = "ca-app-pub-3940256099942544/9214589741"
+        var FIXED_SIZE_BANNER_TEST_ID = "ca-app-pub-3940256099942544/6300978111"
+        var INTERSTITIAL_TEST_ID = "ca-app-pub-3940256099942544/1033173712"
+        var NATIVE_TEST_ID = "ca-app-pub-3940256099942544/2247696110"
+
         var IS_LOGIN = "is_login"
         var NAME = "name"
         var EMAIL = "email"

@@ -90,5 +90,8 @@ dependencies {
     // Lottie dependency
     implementation ("com.airbnb.android:lottie:3.7.0")
 
+    //ads
+    implementation ("com.google.android.gms:play-services-ads:23.3.0") // Use the latest version
+
 
 }

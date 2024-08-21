@@ -7,6 +7,9 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.androidcodesandtricks.R
 import com.example.androidcodesandtricks.databinding.ActivitySplashBinding
+import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.initialization.InitializationStatus
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener
 
 class SplashActivity : AppCompatActivity() {
 

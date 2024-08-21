@@ -26,6 +26,9 @@ import com.example.androidcodesandtricks.fragments.AboutDeviceFragment
 import com.example.androidcodesandtricks.fragments.CountryCodeFragment
 import com.example.androidcodesandtricks.fragments.HomeFragment
 import com.example.androidcodesandtricks.model.TrendingListModel
+import com.example.androidcodesandtricks.helper.loadBannerAds
+import com.example.mygreetingsapp.helper.AppConstant
+import com.google.android.gms.ads.AdSize
 
 class HomeActivity : AppCompatActivity() {
 
@@ -36,13 +39,22 @@ class HomeActivity : AppCompatActivity() {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
         initViews()
+
     }
 
     private fun initViews() {
 
         addfragment(HomeFragment(), "HomeFragment")
+
+//        AdSize BANNER
+//        loadBannerAds(this, binding.frameAdBanner, AdSize.BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
+
+//        AdSize FULL_BANNER
+        loadBannerAds(this, binding.frameAdBanner, AdSize.FULL_BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
+
+//        AdSize LARGE_BANNER
+//        loadBannerAds(this, binding.frameAdBanner, AdSize.LARGE_BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
 
         binding.bottomNavigatioView.setOnItemSelectedListener {
             Log.d("HomeActivity", "MenuItem selected: ${it.itemId}")

@@ -8,12 +8,20 @@
     tools:context=".activity.HomeActivity">
 
     <FrameLayout
+        android:id="@+id/frame_adBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <FrameLayout
         android:id="@+id/frame_home"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/bottomNavigatioView" />
+        app:layout_constraintTop_toBottomOf="@id/frame_adBanner"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigatioView"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigatioView"
