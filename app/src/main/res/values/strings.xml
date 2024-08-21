@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">AndroidCodesAndTricks</string>
+
+
+    //admob test id
+    <string name="APP_OPEN_AD_TEST_ID">ca-app-pub-3940256099942544/9257395921</string>
+
     <string name="success">Success</string>
     <string name="android_secret_codes">Android Secret Codes</string>
     <string name="make_your_mobile_software_updated_easily">Make your mobile software updated easily</string>

@@ -93,5 +93,7 @@ dependencies {
     //ads
     implementation ("com.google.android.gms:play-services-ads:23.3.0") // Use the latest version
 
+    //activity lifecycle for app open ads
+    implementation ("androidx.lifecycle:lifecycle-process:2.8.4")
 
 }

@@ -48,10 +48,10 @@ class HomeActivity : AppCompatActivity() {
         addfragment(HomeFragment(), "HomeFragment")
 
 //        AdSize BANNER
-//        loadBannerAds(this, binding.frameAdBanner, AdSize.BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
+        loadBannerAds(this, binding.frameAdBanner, AdSize.BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
 
-//        AdSize FULL_BANNER
-        loadBannerAds(this, binding.frameAdBanner, AdSize.FULL_BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
+//        AdSize FULL_BANNERgit add .
+//        loadBannerAds(this, binding.frameAdBanner, AdSize.FULL_BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
 
 //        AdSize LARGE_BANNER
 //        loadBannerAds(this, binding.frameAdBanner, AdSize.LARGE_BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
