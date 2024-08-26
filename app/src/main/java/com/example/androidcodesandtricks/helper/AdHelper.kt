@@ -9,7 +9,7 @@ import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.LoadAdError
 
-fun loadBannerAds(context: Context, adsFrameLayout: FrameLayout, adSize: AdSize, adUnitIdL: String) {
+fun loadBannerAds(context: Context, adsFrameLayout: AdView, adSize: AdSize, adUnitIdL: String) {
 
     val adView = AdView(context)
     adView.setAdSize(adSize)

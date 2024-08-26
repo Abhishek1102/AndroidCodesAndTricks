@@ -1,38 +1,33 @@
 package com.example.androidcodesandtricks.activity
 
-import android.graphics.Color
-import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import android.view.Gravity
 import android.view.View
-import android.widget.GridLayout
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.GridLayoutManager
 import com.example.androidcodesandtricks.R
-import com.example.androidcodesandtricks.adapter.TrendingListAdapter
 import com.example.androidcodesandtricks.databinding.ActivityHomeBinding
 import com.example.androidcodesandtricks.fragments.AboutDeviceFragment
 import com.example.androidcodesandtricks.fragments.CountryCodeFragment
 import com.example.androidcodesandtricks.fragments.HomeFragment
-import com.example.androidcodesandtricks.model.TrendingListModel
+import com.example.androidcodesandtricks.helper.AdsModel
 import com.example.androidcodesandtricks.helper.loadBannerAds
 import com.example.mygreetingsapp.helper.AppConstant
 import com.google.android.gms.ads.AdSize
+import com.google.firebase.firestore.DocumentSnapshot
+import com.google.firebase.firestore.EventListener
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.FirebaseFirestoreException
 
 class HomeActivity : AppCompatActivity() {
 
-    lateinit var binding:ActivityHomeBinding
+    lateinit var binding: ActivityHomeBinding
+    lateinit var firestore: FirebaseFirestore
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,16 +40,43 @@ class HomeActivity : AppCompatActivity() {
 
     private fun initViews() {
 
+        firestore = FirebaseFirestore.getInstance()
         addfragment(HomeFragment(), "HomeFragment")
 
-//        AdSize BANNER
-        loadBannerAds(this, binding.frameAdBanner, AdSize.BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
+        firestore.collection("ads").document("nULSpjG3mj94mMfKTWOb")
+            .addSnapshotListener { value, error ->
+                if (error != null) {
+                    toast("Error", error.localizedMessage ?: "Error in getting data")
+                } else {
+                    val data: AdsModel? = value?.toObject(AdsModel::class.java)
+                    if (data != null) {
+                        if (data.ad_status) {
+                            //-------- if ad status is true then only ads will show ---------------
 
-//        AdSize FULL_BANNERgit add .
-//        loadBannerAds(this, binding.frameAdBanner, AdSize.FULL_BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
+                            binding.adviewAdBanner.visibility = View.VISIBLE
 
-//        AdSize LARGE_BANNER
-//        loadBannerAds(this, binding.frameAdBanner, AdSize.LARGE_BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
+//                        AdSize Adaptive BANNER
+                            loadBannerAds(this, binding.adviewAdBanner, AdSize.BANNER, data.banner_g)
+
+//                       AdSize FULL_BANNERgit add .
+//                       loadBannerAds(this, binding.frameAdBanner, AdSize.FULL_BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
+
+//                      AdSize LARGE_BANNER
+//                      loadBannerAds(this, binding.frameAdBanner, AdSize.LARGE_BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
+
+                            Log.d("My Data", "onEvent: " + data.ad_status.toString())
+                        } else {
+                            binding.adviewAdBanner.visibility = View.GONE
+                            Log.d("My Data", "onEvent: " + data.ad_status.toString())
+                        }
+                        // Handle the data, e.g., update UI or store data
+                    } else {
+                        Log.d("My Data", "onEvent: " + data?.ad_status.toString())
+                        toast("Info", "No data found")
+                    }
+                }
+            }
+
 
         binding.bottomNavigatioView.setOnItemSelectedListener {
             Log.d("HomeActivity", "MenuItem selected: ${it.itemId}")
@@ -63,14 +85,17 @@ class HomeActivity : AppCompatActivity() {
                     Log.d("HomeActivity", "Home selected")
                     addfragment(HomeFragment(), "HomeFragment")
                 }
+
                 R.id.about_device -> {
                     Log.d("HomeActivity", "About Device selected")
                     addfragment(AboutDeviceFragment(), "AboutDeviceFragment")
                 }
+
                 R.id.country_codes -> {
                     Log.d("HomeActivity", "Country Codes selected")
                     addfragment(CountryCodeFragment(), "CountryCodeFragment")
                 }
+
                 else -> {
                     Log.d("HomeActivity", "Unknown menu item selected")
                 }
@@ -88,7 +113,6 @@ class HomeActivity : AppCompatActivity() {
         // Do not call addToBackStack(null) to avoid adding the transaction to the back stack
         fragmentTransaction.commit()
     }
-
 
 
     private fun toast(type: String, desc: String) {
