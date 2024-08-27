@@ -5,15 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/splash_dark_mode_color_white_black"
     tools:context=".activity.SplashActivity">
 
-    <com.example.androidcodesandtricks.customfont.CustomButton
-        android:id="@+id/btn_welcome"
+    <ImageView
+        android:id="@+id/iv_splashIcon"
         android:layout_width="@dimen/_150sdp"
-        android:layout_height="@dimen/_50sdp"
-        android:text="Welcome"
-        style="@style/white_15"
-        android:background="@drawable/main_blue_gradient_btn_bg"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/android_tricks"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

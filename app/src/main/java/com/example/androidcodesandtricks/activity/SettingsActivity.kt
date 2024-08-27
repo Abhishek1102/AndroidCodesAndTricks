@@ -37,7 +37,7 @@ class SettingsActivity : AppCompatActivity() {
         settingsList.add(SettingsModel(R.drawable.share, "Share App"))
         settingsList.add(SettingsModel(R.drawable.rate_us, "Rate Us"))
         settingsList.add(SettingsModel(R.drawable.privacy_policy, "Privacy Policy"))
-        settingsList.add(SettingsModel(R.drawable.dark_mode_switch, "Turn Dark Mode On/Off"))
+        settingsList.add(SettingsModel(R.drawable.dark_mode_switch, "Toggle Dark Mode"))
 
         binding.ivBack.setOnClickListener {
 

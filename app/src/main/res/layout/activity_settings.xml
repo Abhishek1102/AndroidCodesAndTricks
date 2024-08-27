@@ -27,7 +27,8 @@
             android:padding="@dimen/_5sdp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:tint="@color/dark_mode_color_white_black" />
 
         <com.example.androidcodesandtricks.customfont.CustomTextViewSemiBold
             style="@style/black_16"

@@ -9,6 +9,11 @@
     <color name="white">#FFFFFFFF</color>
 
 
+    <color name="dark_mode_color_white_black">#121212</color>
+    // as splash screen was having issues it was going opposite to the mode is set
+    // so temporary solution to set opposite color of mode selected
+    <color name="splash_dark_mode_color_white_black">#F8F8F8</color>
+
     <!--    my colors-->
 
     <color name="font_color_gray">#6c757d</color>

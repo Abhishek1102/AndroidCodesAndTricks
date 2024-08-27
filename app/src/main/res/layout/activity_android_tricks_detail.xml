@@ -25,6 +25,7 @@
             android:layout_height="@dimen/_30sdp"
             android:src="@drawable/back"
             android:padding="@dimen/_5sdp"
+            app:tint="@color/dark_mode_color_white_black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>

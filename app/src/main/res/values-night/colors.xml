@@ -11,6 +11,10 @@
     <color name="white">#FFFFFF</color> <!-- Text color for dark theme -->
     <color name="bg_black">#121212</color>
 
+    <color name="dark_mode_color_white_black">#F8F8F8</color>
+    // as splash screen was having issues it was going opposite to the mode is set
+    // so temporary solution to set opposite color of mode selected
+    <color name="splash_dark_mode_color_white_black">#121212</color>
 
     <!-- Custom Dark Colors -->
     <color name="font_color_gray">#B0B0B0</color> <!-- Lighter gray for text -->
@@ -48,7 +52,7 @@
     <color name="darker_gray">#424242</color> <!-- Darker gray color -->
     <color name="orange">#FF5722</color> <!-- Dark orange color -->
     <color name="gray_light_dark">#616161</color> <!-- Light dark gray color -->
-    <color name="bottom_nav_gray">#4A4A4A</color> <!-- Bottom navigation gray -->
+    <color name="bottom_nav_gray">#B0B0B0</color> <!-- Bottom navigation gray -->
     <color name="gray_1">#B0B0B0</color> <!-- Light gray -->
     <color name="gray_2">#424242</color> <!-- Gray -->
     <color name="gray_3">#333333</color> <!-- Dark gray -->

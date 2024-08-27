@@ -37,7 +37,8 @@
                 android:layout_width="@dimen/_30sdp"
                 android:layout_height="@dimen/_30sdp"
                 android:paddingHorizontal="@dimen/_5sdp"
-                android:src="@drawable/settings" />
+                android:src="@drawable/settings"
+                app:tint="@color/dark_mode_color_white_black" />
 
         </LinearLayout>
 

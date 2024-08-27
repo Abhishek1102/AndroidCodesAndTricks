@@ -1,6 +1,9 @@
 package com.example.androidcodesandtricks.activity
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.view.WindowManager
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -23,23 +26,22 @@ class SplashActivity : AppCompatActivity() {
         binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        initViews()
+        initView()
+
     }
 
-    private fun initViews() {
-
-        binding.btnWelcome.setOnClickListener {
-
-        }
-
-        val isDarkModeOn = SecurePreferences.getBooleanPreference(this, AppConstant.IS_DARK_MODE_ON)
-        // Apply the theme based on the preference
-        if (isDarkModeOn) {
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-        } else {
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-        }
+    private fun initView() {
 
 
+        // This method is used so that your splash activity can cover the entire screen
+        window.setFlags(
+            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN
+        )
+
+        Handler().postDelayed({
+            startActivity(Intent(this,HomeActivity::class.java))
+            finish()
+        },2000)
     }
 }

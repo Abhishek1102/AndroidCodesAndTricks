@@ -1,5 +1,6 @@
 package com.example.androidcodesandtricks.adapter
 
+import android.app.Activity
 import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
@@ -14,10 +15,12 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androidcodesandtricks.R
+import com.example.androidcodesandtricks.activity.HomeActivity
 import com.example.androidcodesandtricks.activity.MobileTipsDetailActivity
 import com.example.androidcodesandtricks.activity.PrivacyPolicyActivity
 import com.example.androidcodesandtricks.activity.SecretCodesDetailActivity
 import com.example.androidcodesandtricks.activity.SettingsActivity
+import com.example.androidcodesandtricks.activity.SplashActivity
 import com.example.androidcodesandtricks.helper.SecurePreferences
 import com.example.androidcodesandtricks.model.SettingsModel
 import com.example.androidcodesandtricks.model.TrendingListModel
@@ -76,7 +79,7 @@ class SettingsAdapter(
                 val intent = Intent(context, PrivacyPolicyActivity::class.java)
                 context.startActivity(intent)
 
-            } else if(settingsListItem[position].settingTitle=="Turn Dark Mode On/Off") {
+            } else if(settingsListItem[position].settingTitle=="Toggle Dark Mode") {
                 toggleDarkMode()
             }
 
@@ -99,6 +102,15 @@ class SettingsAdapter(
             // Save the preference
             SecurePreferences.savePreferences(context, AppConstant.IS_DARK_MODE_ON, true)
         }
+
+        //all activities are finished
+        if (context is Activity) {
+            (context as Activity).finishAffinity()
+        }
+        //new activity is started
+        val intent = Intent(context, SplashActivity::class.java)  // Replace HomeActivity with your main activity
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
+        context.startActivity(intent)
 
     }
 
