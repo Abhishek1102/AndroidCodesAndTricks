@@ -2,6 +2,7 @@ package com.example.androidcodesandtricks.fragments
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.Gravity
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -19,13 +20,25 @@ import com.example.androidcodesandtricks.activity.SecretCodesActivity
 import com.example.androidcodesandtricks.activity.SettingsActivity
 import com.example.androidcodesandtricks.adapter.TrendingListAdapter
 import com.example.androidcodesandtricks.databinding.FragmentHomeBinding
+import com.example.androidcodesandtricks.helper.AdClickManager
+import com.example.androidcodesandtricks.helper.InterstitialAdClickCounter
+import com.example.androidcodesandtricks.helper.SecurePreferences
 import com.example.androidcodesandtricks.model.TrendingListModel
+import com.example.mygreetingsapp.helper.AppConstant
+import com.google.android.gms.ads.AdError
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.FullScreenContentCallback
+import com.google.android.gms.ads.LoadAdError
+import com.google.android.gms.ads.interstitial.InterstitialAd
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 
 class HomeFragment : Fragment() {
 
     private lateinit var binding:FragmentHomeBinding
     lateinit var trendingListAdapter: TrendingListAdapter
     lateinit var trendingItemList: ArrayList<TrendingListModel>
+    private var interstitialAd: InterstitialAd? = null
+    private lateinit var interstitialAdClickCounter: InterstitialAdClickCounter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -41,6 +54,9 @@ class HomeFragment : Fragment() {
     }
 
     private fun initList() {
+
+        loadInterstitialAds()
+        interstitialAdClickCounter = InterstitialAdClickCounter()
 
         trendingItemList = ArrayList()
 
@@ -61,6 +77,22 @@ class HomeFragment : Fragment() {
         trendingItemList.add(TrendingListModel(R.drawable.break_pattern, "Break Pattern"))
         trendingItemList.add(TrendingListModel(R.drawable.tecno, "Tecno Facts"))
         trendingItemList.add(TrendingListModel(R.drawable.unlock_pattern, "Unlock Pattern"))
+    }
+
+    private fun loadInterstitialAds() {
+        val adRequest = AdRequest.Builder().build()
+        InterstitialAd.load(requireContext(), AppConstant.INTERSTITIAL_TEST_ID, adRequest,
+            object : InterstitialAdLoadCallback() {
+                override fun onAdLoaded(ad: InterstitialAd) {
+                    Log.d("Interstitial Ad", "Interstitial Ad Loaded")
+                    interstitialAd = ad
+                }
+
+                override fun onAdFailedToLoad(adError: LoadAdError) {
+                    Log.d("Interstitial Ad", "Interstitial Ad Not Loaded: ${adError.message}")
+                    interstitialAd = null
+                }
+            })
     }
 
     private fun initViews() {
@@ -91,10 +123,13 @@ class HomeFragment : Fragment() {
 
         }
 
+        //getting click counter from shared preferences
+        val clickCounter = SecurePreferences.getStringPreference(context, AppConstant.INTERSTITIAL_AD_CLICK_COUNTER)
+
         //setting up trending list grid recycler view layout manager and adapter and passing list to adapter
         val gridLayoutManager = GridLayoutManager(context, 3)
         binding.rvTrendingList.layoutManager = gridLayoutManager
-        trendingListAdapter = TrendingListAdapter(requireContext(), trendingItemList)
+        trendingListAdapter = TrendingListAdapter(requireContext(), trendingItemList, interstitialAd, interstitialAdClickCounter, clickCounter)
         binding.rvTrendingList.adapter = trendingListAdapter
         trendingListAdapter.notifyDataSetChanged()
 

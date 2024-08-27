@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:includeFontPadding="false"
             android:layout_marginHorizontal="@dimen/_10sdp"
-            android:text="@string/make_your_mobile_software_updated_easily" />
+            android:text="@string/effortlessly_maintain_up_to_date_mobile_software" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

@@ -54,4 +54,16 @@
         app:layout_constraintStart_toStartOf="parent"
         android:paddingHorizontal="@dimen/_8sdp"/>
 
+    <com.example.androidcodesandtricks.customfont.CustomTextViewMedium
+        android:id="@+id/tv_appVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/black_12"
+        android:includeFontPadding="false"
+        android:textAlignment="center"
+        android:layout_marginBottom="@dimen/_23sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

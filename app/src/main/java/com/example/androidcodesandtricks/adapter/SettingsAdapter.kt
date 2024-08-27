@@ -11,14 +11,17 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androidcodesandtricks.R
 import com.example.androidcodesandtricks.activity.MobileTipsDetailActivity
 import com.example.androidcodesandtricks.activity.PrivacyPolicyActivity
 import com.example.androidcodesandtricks.activity.SecretCodesDetailActivity
 import com.example.androidcodesandtricks.activity.SettingsActivity
+import com.example.androidcodesandtricks.helper.SecurePreferences
 import com.example.androidcodesandtricks.model.SettingsModel
 import com.example.androidcodesandtricks.model.TrendingListModel
+import com.example.mygreetingsapp.helper.AppConstant
 
 class SettingsAdapter(
     private val context: Context,
@@ -73,8 +76,28 @@ class SettingsAdapter(
                 val intent = Intent(context, PrivacyPolicyActivity::class.java)
                 context.startActivity(intent)
 
+            } else if(settingsListItem[position].settingTitle=="Turn Dark Mode On/Off") {
+                toggleDarkMode()
             }
 
+        }
+
+    }
+
+    private fun toggleDarkMode() {
+        val sharedPreferences = context.getSharedPreferences("AppSettings", Context.MODE_PRIVATE)
+        val isDarkModeOn = SecurePreferences.getBooleanPreference(context, AppConstant.IS_DARK_MODE_ON)
+
+        if (isDarkModeOn) {
+            // If dark mode is on, switch to light mode
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            // Save the preference
+            SecurePreferences.savePreferences(context, AppConstant.IS_DARK_MODE_ON, false)
+        } else {
+            // If dark mode is off, switch to dark mode
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+            // Save the preference
+            SecurePreferences.savePreferences(context, AppConstant.IS_DARK_MODE_ON, true)
         }
 
     }

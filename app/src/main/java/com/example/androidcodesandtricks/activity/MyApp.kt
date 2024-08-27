@@ -1,23 +1,44 @@
 package com.example.androidcodesandtricks.activity
 
 import android.app.Application
+import android.widget.Toast
+import com.example.androidcodesandtricks.model.AdsModel
 import com.example.emicalculator.AppOpenManager
 import com.google.android.gms.ads.MobileAds
+import com.google.firebase.firestore.FirebaseFirestore
 
 class MyApp: Application() {
 
     private lateinit var appOpenAdManager: AppOpenManager
+    private lateinit var firestore: FirebaseFirestore
 
     override fun onCreate() {
         super.onCreate()
-        try{
-            MobileAds.initialize(this) {
-                appOpenAdManager = AppOpenManager(this)
-                appOpenAdManager.showAdOnAppStart()
+
+        firestore = FirebaseFirestore.getInstance()
+        firestore.collection("ads").document("nULSpjG3mj94mMfKTWOb").addSnapshotListener { value, error ->
+            if(error!=null){
+                Toast.makeText(this, error.localizedMessage ?: "Error in getting data", Toast.LENGTH_SHORT).show()
+            } else {
+                val data: AdsModel? = value?.toObject(AdsModel::class.java)
+
+                if(data!=null) {
+                    //if ad status is true then only app open ad is initialized
+                    if(data.ad_status) {
+                        try{
+                            MobileAds.initialize(this) {
+                                appOpenAdManager = AppOpenManager(this)
+                                appOpenAdManager.showAdOnAppStart()
+                            }
+                        } catch (e: Exception) {
+                            e.printStackTrace()
+                        }
+                    }
+                }
+
             }
-        } catch (e: Exception) {
-            e.printStackTrace()
         }
+
     }
 
     override fun onTerminate() {

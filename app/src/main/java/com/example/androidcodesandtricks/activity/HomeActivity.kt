@@ -10,19 +10,18 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import com.example.androidcodesandtricks.R
 import com.example.androidcodesandtricks.databinding.ActivityHomeBinding
 import com.example.androidcodesandtricks.fragments.AboutDeviceFragment
 import com.example.androidcodesandtricks.fragments.CountryCodeFragment
 import com.example.androidcodesandtricks.fragments.HomeFragment
-import com.example.androidcodesandtricks.helper.AdsModel
+import com.example.androidcodesandtricks.helper.SecurePreferences
+import com.example.androidcodesandtricks.model.AdsModel
 import com.example.androidcodesandtricks.helper.loadBannerAds
 import com.example.mygreetingsapp.helper.AppConstant
 import com.google.android.gms.ads.AdSize
-import com.google.firebase.firestore.DocumentSnapshot
-import com.google.firebase.firestore.EventListener
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.FirebaseFirestoreException
 
 class HomeActivity : AppCompatActivity() {
 
@@ -49,24 +48,29 @@ class HomeActivity : AppCompatActivity() {
                     toast("Error", error.localizedMessage ?: "Error in getting data")
                 } else {
                     val data: AdsModel? = value?.toObject(AdsModel::class.java)
+
                     if (data != null) {
                         if (data.ad_status) {
                             //-------- if ad status is true then only ads will show ---------------
 
                             binding.adviewAdBanner.visibility = View.VISIBLE
 
-//                        AdSize Adaptive BANNER
+//                          AdSize Adaptive BANNER
                             loadBannerAds(this, binding.adviewAdBanner, AdSize.BANNER, data.banner_g)
 
-//                       AdSize FULL_BANNERgit add .
-//                       loadBannerAds(this, binding.frameAdBanner, AdSize.FULL_BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
-
-//                      AdSize LARGE_BANNER
-//                      loadBannerAds(this, binding.frameAdBanner, AdSize.LARGE_BANNER, AppConstant.FIXED_SIZE_BANNER_TEST_ID)
+                            //interstitial click counter
+                            SecurePreferences.savePreferences(
+                                this,
+                                AppConstant.INTERSTITIAL_AD_CLICK_COUNTER,
+                                data.interstitial_ad_click_counter
+                            )
 
                             Log.d("My Data", "onEvent: " + data.ad_status.toString())
+                            Log.d("My Data", "onEvent: " + data.interstitial_ad_click_counter.toString()
+                            )
                         } else {
                             binding.adviewAdBanner.visibility = View.GONE
+                            SecurePreferences.savePreferences(this, AppConstant.INTERSTITIAL_AD_CLICK_COUNTER, "0")
                             Log.d("My Data", "onEvent: " + data.ad_status.toString())
                         }
                         // Handle the data, e.g., update UI or store data

@@ -34,12 +34,24 @@ fun loadBannerAds(context: Context, adsFrameLayout: AdView, adSize: AdSize, adUn
 
 }
 
-
-
 fun View.gone() {
     visibility = View.GONE
 }
 
 fun View.visible() {
     visibility = View.VISIBLE
+}
+
+object AdClickManager {
+    private var clickCount = 0
+    private const val CLICK_THRESHOLD = 3
+
+    fun incrementClickCount(): Boolean {
+        clickCount++
+        return clickCount >= CLICK_THRESHOLD
+    }
+
+    fun resetClickCount() {
+        clickCount = 0
+    }
 }

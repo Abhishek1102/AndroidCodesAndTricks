@@ -21,6 +21,7 @@
     <color name="error">#FF363B</color>
 
     <color name="bg_white">#F8F8F8</color>
+    <color name="bg_black">#121212</color>
     <color name="colorBackground">#FCFCFC</color>
     <color name="colorstatustheme">#eff8fa</color>
     <color name="lightGreen">#52b788</color>

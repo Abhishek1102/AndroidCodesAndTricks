@@ -19,6 +19,10 @@ class AppConstant {
         var INTERSTITIAL_TEST_ID = "ca-app-pub-3940256099942544/1033173712"
         var NATIVE_TEST_ID = "ca-app-pub-3940256099942544/2247696110"
 
+        var INTERSTITIAL_AD_CLICK_COUNTER = "interstitial_ad_click_counter"
+        var IS_DARK_MODE_ON = "is_dark_mode_on"
+
+
         var IS_LOGIN = "is_login"
         var NAME = "name"
         var EMAIL = "email"
@@ -32,7 +36,6 @@ class AppConstant {
         var USER_IMAGE = ""
 
         var LANGUAGE = "user_language"
-        var is_dark_mode_on = "no"
 
         lateinit var dialog:ProgressDialog
 

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand color. -->
+    <color name="purple_500">#9c27b0</color>
+    <color name="purple_700">#6a1b9a</color>
+    <color name="teal_200">#009688</color>
+    <color name="teal_700">#004d40</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="black">#121212</color> <!-- Background color for dark theme -->
+    <color name="white">#FFFFFF</color> <!-- Text color for dark theme -->
+    <color name="bg_black">#121212</color>
+
+
+    <!-- Custom Dark Colors -->
+    <color name="font_color_gray">#B0B0B0</color> <!-- Lighter gray for text -->
+    <color name="colorPrimary">#1E88E5</color> <!-- Primary brand color in dark mode -->
+    <color name="colorPrimaryDark">#004C8C</color> <!-- Darker variant of primary color -->
+    <color name="colorAccent">#D32F2F</color> <!-- Accent color -->
+
+    <color name="success">#4CAF50</color> <!-- Success color for dark theme -->
+    <color name="error">#D32F2F</color> <!-- Error color for dark theme -->
+
+    <color name="bg_white">#212121</color> <!-- Background color for dark theme -->
+    <color name="colorBackground">#1E1E1E</color> <!-- General background color -->
+    <color name="colorstatustheme">#1C1C1C</color> <!-- Status bar color -->
+    <color name="lightGreen">#4CAF50</color> <!-- Light green color -->
+    <color name="lightblue">#00BCD4</color> <!-- Light blue color -->
+    <color name="very_light_blue">#0288D1</color> <!-- Light blue color -->
+    <color name="pink">#E91E63</color> <!-- Pink color -->
+    <color name="purple">#9C27B0</color> <!-- Purple color -->
+    <color name="cream">#FFEB3B</color> <!-- Cream color -->
+    <color name="click_color">#9E9E9E</color> <!-- Clicked item color -->
+    <color name="black_alpha">#B3000000</color> <!-- Black with alpha -->
+    <color name="black_alpha_1">#B3800000</color> <!-- Black with alpha -->
+    <color name="black_alpha_2">#1A000000</color> <!-- Black with alpha -->
+    <color name="red1">#F44336</color> <!-- Red color -->
+    <color name="red_2">#E53935</color> <!-- Red color -->
+    <color name="blue_dark">#0D47A1</color> <!-- Dark blue color -->
+    <color name="green">#388E3C</color> <!-- Dark green color -->
+    <color name="green_alpha">#1A0BF6BE</color> <!-- Green with alpha -->
+    <color name="lime_green">#4CAF50</color> <!-- Lime green color -->
+    <color name="selected_gry">#424242</color> <!-- Selected gray color -->
+    <color name="gray_terms">#9E9E9E</color> <!-- Terms gray color -->
+    <color name="view_color">#333333</color> <!-- View background color -->
+    <color name="gray">#616161</color> <!-- General gray color -->
+    <color name="light_gray">#757575</color> <!-- Light gray color -->
+    <color name="darker_gray">#424242</color> <!-- Darker gray color -->
+    <color name="orange">#FF5722</color> <!-- Dark orange color -->
+    <color name="gray_light_dark">#616161</color> <!-- Light dark gray color -->
+    <color name="bottom_nav_gray">#4A4A4A</color> <!-- Bottom navigation gray -->
+    <color name="gray_1">#B0B0B0</color> <!-- Light gray -->
+    <color name="gray_2">#424242</color> <!-- Gray -->
+    <color name="gray_3">#333333</color> <!-- Dark gray -->
+    <color name="yellow">#FBC02D</color> <!-- Yellow color -->
+    <color name="blue2">#304FFE</color> <!-- Secondary blue color -->
+    <color name="white_bg_dark">#B0BEC5</color> <!-- White background for dark theme -->
+    <color name="green2">#388E3C</color> <!-- Green color -->
+    <color name="orange2">#FF5722</color> <!-- Orange color -->
+    <color name="imageBorderColor">#E91E63</color> <!-- Image border color -->
+    <color name="miniTitle">#E0E0E0</color> <!-- Mini title color -->
+    <color name="sun">#FBC02D</color> <!-- Sun color -->
+    <color name="red_wrong">#F44336</color> <!-- Wrong red color -->
+    <color name="palette1">#00C853</color> <!-- Palette color -->
+    <color name="palette2">#F50057</color> <!-- Palette color -->
+    <color name="palette3">#FF6D00</color> <!-- Palette color -->
+    <color name="palette4">#D500F9</color> <!-- Palette color -->
+    <color name="palette5">#2962FF</color> <!-- Palette color -->
+    <color name="palette6">#FFC107</color> <!-- Palette color -->
+    <color name="palette7">#00B8D4</color> <!-- Palette color -->
+    <color name="palette8">#C51162</color> <!-- Palette color -->
+    <color name="palette9">#039BE5</color> <!-- Palette color -->
+    <color name="palette10">#F4B300</color> <!-- Palette color -->
+    <color name="palette11">#D32F2F</color> <!-- Palette color -->
+    <color name="palette12">#0288D1</color> <!-- Palette color -->
+    <color name="blue_app">#1E88E5</color> <!-- App blue color -->
+    <color name="light_dark_gray">#757575</color> <!-- Light dark gray color -->
+    <color name="palette13">#0097A7</color> <!-- Palette color -->
+    <color name="selection_color">#424242</color> <!-- Selection color -->
+    <color name="selected_gray_color">#B3000000</color> <!-- Selected gray color -->
+    <color name="blue">#1E88E5</color> <!-- Blue color -->
+    <color name="pending">#FF6D00</color> <!-- Pending color -->
+    <color name="light_blue">#0288D1</color> <!-- Light blue color -->
+    <color name="accept">#00C853</color> <!-- Accept color -->
+    <color name="reject">#F44336</color> <!-- Reject color -->
+
+    <color name="red_alpha">#1AABABAB</color> <!-- Red with alpha -->
+    <color name="orange_alpha">#1AFF5900</color> <!-- Orange with alpha -->
+    <color name="gray_alpha">#1A424242</color> <!-- Gray with alpha -->
+    <color name="orange3">#FF6D00</color> <!-- Orange color -->
+    <color name="orange4">#FF8F00</color> <!-- Orange color -->
+    <color name="edittext_bg">#333333</color> <!-- Edittext background color -->
+    <color name="back_arrow_bg">#424242</color> <!-- Back arrow background color -->
+    <color name="image_tint">#B0BEC5</color> <!-- Image tint color -->
+</resources>

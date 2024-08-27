@@ -13,6 +13,7 @@ import com.example.androidcodesandtricks.adapter.SettingsAdapter
 import com.example.androidcodesandtricks.databinding.ActivitySettingsBinding
 import com.example.androidcodesandtricks.model.SettingsModel
 import com.example.androidcodesandtricks.model.loadCountryData
+import com.intuit.sdp.BuildConfig
 
 class SettingsActivity : AppCompatActivity() {
 
@@ -36,12 +37,15 @@ class SettingsActivity : AppCompatActivity() {
         settingsList.add(SettingsModel(R.drawable.share, "Share App"))
         settingsList.add(SettingsModel(R.drawable.rate_us, "Rate Us"))
         settingsList.add(SettingsModel(R.drawable.privacy_policy, "Privacy Policy"))
+        settingsList.add(SettingsModel(R.drawable.dark_mode_switch, "Turn Dark Mode On/Off"))
 
         binding.ivBack.setOnClickListener {
 
             onBackPressedDispatcher.onBackPressed()
 
         }
+
+        binding.tvAppVersion.text = "Version ${BuildConfig.VERSION_NAME}"
 
         //setting up device info list linear recycler view layout manager and adapter and passing list to adapter
         val linearLayoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
