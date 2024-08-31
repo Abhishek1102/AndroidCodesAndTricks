@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.androidcodesandtricks.R
 import com.example.androidcodesandtricks.adapter.CountryCodeAdapter
 import com.example.androidcodesandtricks.databinding.FragmentCountryCodeBinding
 import com.example.androidcodesandtricks.model.loadCountryData

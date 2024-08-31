@@ -7,8 +7,6 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.androidcodesandtricks.R
-import com.example.androidcodesandtricks.adapter.AboutDeviceAdapter
-import com.example.androidcodesandtricks.adapter.CountryCodeAdapter
 import com.example.androidcodesandtricks.adapter.SettingsAdapter
 import com.example.androidcodesandtricks.databinding.ActivitySettingsBinding
 import com.example.androidcodesandtricks.model.SettingsModel
@@ -17,7 +15,7 @@ import com.intuit.sdp.BuildConfig
 
 class SettingsActivity : AppCompatActivity() {
 
-    private lateinit var binding:ActivitySettingsBinding
+    private lateinit var binding: ActivitySettingsBinding
     private lateinit var settingsAdapter: SettingsAdapter
     private lateinit var settingsList: ArrayList<SettingsModel>
 

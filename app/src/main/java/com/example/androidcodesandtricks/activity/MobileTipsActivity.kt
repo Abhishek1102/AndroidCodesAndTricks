@@ -38,16 +38,16 @@ class MobileTipsActivity : AppCompatActivity() {
 
         mobileTipsList = ArrayList()
 
-        mobileTipsList.add(MobileTipsModel(R.drawable.speedometer,"Add Internet Speed Indicator"))
         mobileTipsList.add(MobileTipsModel(R.drawable.owner_info,"Add Owner Info"))
         mobileTipsList.add(MobileTipsModel(R.drawable.first_few_things,"First Few Things"))
         mobileTipsList.add(MobileTipsModel(R.drawable.gesture_setting,"Gesture Setting"))
         mobileTipsList.add(MobileTipsModel(R.drawable.google_commands,"Google Commands"))
+        mobileTipsList.add(MobileTipsModel(R.drawable.speedometer,"Add Internet Speed Indicator"))
         mobileTipsList.add(MobileTipsModel(R.drawable.manage_memory,"Manage Memory"))
         mobileTipsList.add(MobileTipsModel(R.drawable.device_performance,"Device Performance"))
         mobileTipsList.add(MobileTipsModel(R.drawable.general_app_tips,"General App Tips"))
         mobileTipsList.add(MobileTipsModel(R.drawable.privacy_and_security,"Privacy and Security"))
-        mobileTipsList.add(MobileTipsModel(R.drawable.reduce_mobile_data_usage,"Reduce Your Mobile Data Usage"))
+        mobileTipsList.add(MobileTipsModel(R.drawable.reduce_mobile_data_usage,"Reduce Mobile Data Usage"))
         mobileTipsList.add(MobileTipsModel(R.drawable.speedup_android,"Speed up Android"))
         mobileTipsList.add(MobileTipsModel(R.drawable.use_of_otg,"Use of OTG"))
         mobileTipsList.add(MobileTipsModel(R.drawable.google_now,"Using Google Now"))

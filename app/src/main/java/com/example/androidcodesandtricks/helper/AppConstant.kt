@@ -22,6 +22,7 @@ class AppConstant {
         var INTERSTITIAL_AD_CLICK_COUNTER = "interstitial_ad_click_counter"
         var IS_DARK_MODE_ON = "is_dark_mode_on"
 
+///////////////////////////////////////////////////////////////////////
 
         var IS_LOGIN = "is_login"
         var NAME = "name"

@@ -4,18 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.view.WindowManager
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.app.AppCompatDelegate
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.androidcodesandtricks.R
 import com.example.androidcodesandtricks.databinding.ActivitySplashBinding
-import com.example.androidcodesandtricks.helper.SecurePreferences
-import com.example.mygreetingsapp.helper.AppConstant
-import com.google.android.gms.ads.MobileAds
-import com.google.android.gms.ads.initialization.InitializationStatus
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener
+
 
 class SplashActivity : AppCompatActivity() {
 

@@ -8,8 +8,8 @@
     android:background="@color/bg_white"
     tools:context=".activity.MobileTipsDetailActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/const_topBar"
+    <LinearLayout
+        android:id="@+id/lv_topBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
@@ -21,10 +21,11 @@
 
         <ImageView
             android:id="@+id/iv_back"
-            android:layout_width="@dimen/_30sdp"
+            android:layout_width="0dp"
             android:layout_height="@dimen/_30sdp"
             android:src="@drawable/back"
             android:padding="@dimen/_5sdp"
+            android:layout_weight="0.3"
             app:tint="@color/dark_mode_color_white_black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -33,25 +34,27 @@
         <com.example.androidcodesandtricks.customfont.CustomTextViewSemiBold
             android:id="@+id/tv_mobileTipsDetailTitle"
             style="@style/black_16"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:layout_weight="2"
             android:includeFontPadding="false"
             android:text=""
+            android:textAlignment="center"
             android:maxLines="2"
-            app:layout_constraintStart_toEndOf="@id/iv_back"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="@dimen/_10sdp"
         android:layout_marginBottom="@dimen/_10sdp"
-        app:layout_constraintTop_toBottomOf="@id/const_topBar"
+        app:layout_constraintTop_toBottomOf="@id/lv_topBar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">

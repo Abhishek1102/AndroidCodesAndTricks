@@ -8,9 +8,9 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import com.example.androidcodesandtricks.R
 import com.example.androidcodesandtricks.databinding.ActivityHomeBinding
 import com.example.androidcodesandtricks.fragments.AboutDeviceFragment
@@ -35,8 +35,14 @@ class HomeActivity : AppCompatActivity() {
 
         initViews()
 
-    }
+        // Handle back press using OnBackPressedDispatcher
+        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                showExitDialog()
+            }
+        })
 
+    }
     private fun initViews() {
 
         firestore = FirebaseFirestore.getInstance()
@@ -108,6 +114,39 @@ class HomeActivity : AppCompatActivity() {
         }
 
 
+    }
+
+    private fun showExitDialog() {
+        val dialogBuilder = android.app.AlertDialog.Builder(this)
+        val inflater = layoutInflater
+        val dialogView = inflater.inflate(R.layout.custom_exit_dialog, null)
+        dialogBuilder.setView(dialogView)
+
+        // Get dialog elements
+        val tvTitle = dialogView.findViewById<TextView>(R.id.txt_dialog_title)
+        val tvMessage = dialogView.findViewById<TextView>(R.id.txt_dialog_msg)
+        val tvYes = dialogView.findViewById<TextView>(R.id.txt_positive)
+        val tvNo = dialogView.findViewById<TextView>(R.id.txt_negative)
+
+        tvTitle.setText("Exit")
+        tvMessage.setText("Are you sure want to exit?")
+        tvYes.setText("Yes")
+        tvNo.setText("No")
+
+        // Create and show the dialog
+        val exitDialog = dialogBuilder.create()
+        exitDialog.show()
+
+        // Handle "Yes" button click
+        tvYes.setOnClickListener {
+            exitDialog.dismiss()
+            finishAffinity() // Close the app
+        }
+
+        // Handle "No" button click
+        tvNo.setOnClickListener {
+            exitDialog.dismiss() // Close the dialog
+        }
     }
 
     private fun addfragment(fragment: Fragment, tag: String) {

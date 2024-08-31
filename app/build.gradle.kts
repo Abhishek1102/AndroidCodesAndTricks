@@ -69,6 +69,7 @@ dependencies {
     implementation(libs.firebase.crashlytics)
     implementation(libs.firebase.analytics)
     implementation(libs.firebase.firestore)
+    implementation(libs.androidx.lifecycle.process)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -94,7 +95,6 @@ dependencies {
     //ads
     implementation ("com.google.android.gms:play-services-ads:23.3.0") // Use the latest version
 
-    //activity lifecycle for app open ads
-    implementation ("androidx.lifecycle:lifecycle-process:2.8.4")
-
+    //firebase remote config update
+    implementation ("com.google.firebase:firebase-config:21.0.2")
 }

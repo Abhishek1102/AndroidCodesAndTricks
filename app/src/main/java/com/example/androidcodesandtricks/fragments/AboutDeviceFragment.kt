@@ -7,13 +7,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.androidcodesandtricks.R
 import com.example.androidcodesandtricks.adapter.AboutDeviceAdapter
-import com.example.androidcodesandtricks.adapter.TrendingListAdapter
 import com.example.androidcodesandtricks.databinding.FragmentAboutDeviceBinding
-import com.example.androidcodesandtricks.databinding.FragmentHomeBinding
 import com.example.androidcodesandtricks.model.AboutDeviceModel
-import com.example.androidcodesandtricks.model.TrendingListModel
 
 
 class AboutDeviceFragment : Fragment() {

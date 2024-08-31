@@ -11,7 +11,7 @@ import com.example.androidcodesandtricks.databinding.ActivityPrivacyPolicyBindin
 
 class PrivacyPolicyActivity : AppCompatActivity() {
 
-    private lateinit var binding:ActivityPrivacyPolicyBinding
+    private lateinit var binding: ActivityPrivacyPolicyBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

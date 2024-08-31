@@ -7,10 +7,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.androidcodesandtricks.R
 import com.example.androidcodesandtricks.adapter.SecretCodesAdapter
@@ -48,7 +45,6 @@ class SecretCodesActivity : AppCompatActivity() {
         secretCodesList.add(SecretCodesModel(R.drawable.realme, "Realme"))
         secretCodesList.add(SecretCodesModel(R.drawable.google, "Google"))
         secretCodesList.add(SecretCodesModel(R.drawable.sony, "Sony"))
-        secretCodesList.add(SecretCodesModel(R.drawable.vivo, "Vivo"))
 
     }
 

@@ -19,6 +19,7 @@
     <string name="some_mobile_companies_do_not_allow_to_use_of_those_codes_and_they_might_not_work_on_you">Some mobile companies do not allow to use of those codes and they might not work on you</string>
     <string name="settings">Settings</string>
     <string name="privacy_policy">Privacy Policy</string>
+    <string name="YOUR_REMOTE_CONFIG_PARAMETER">new_version_code</string>
     <string name="privacy_policy_content">
         <![CDATA[
         <b>Privacy Policy</b><br/><br/>
