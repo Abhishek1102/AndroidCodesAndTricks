@@ -15,6 +15,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.core.app.ActivityCompat.finishAffinity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.androidcodesandtricks.R
 import com.example.androidcodesandtricks.activity.AndroidTricksActivity
@@ -40,7 +41,7 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
 
 class HomeFragment : Fragment() {
 
-    private lateinit var binding:FragmentHomeBinding
+    private lateinit var binding: FragmentHomeBinding
     lateinit var trendingListAdapter: TrendingListAdapter
     lateinit var trendingItemList: ArrayList<TrendingListModel>
     private var interstitialAd: InterstitialAd? = null
@@ -77,7 +78,7 @@ class HomeFragment : Fragment() {
         trendingItemList.add(TrendingListModel(R.drawable.google, "Google"))
         trendingItemList.add(TrendingListModel(R.drawable.show_wifi_password, "Wifi Password"))
         trendingItemList.add(TrendingListModel(R.drawable.speedometer, "Speed up Android"))
-        trendingItemList.add(TrendingListModel(R.drawable.mi,"MI"))
+        trendingItemList.add(TrendingListModel(R.drawable.mi, "MI"))
         trendingItemList.add(TrendingListModel(R.drawable.unknown_facts, "Unknown Facts"))
         trendingItemList.add(TrendingListModel(R.drawable.huawei, "Huawei"))
         trendingItemList.add(TrendingListModel(R.drawable.recover_files, "Recover Files"))
@@ -132,12 +133,21 @@ class HomeFragment : Fragment() {
         }
 
         //getting click counter from shared preferences
-        val clickCounter = SecurePreferences.getStringPreference(context, AppConstant.INTERSTITIAL_AD_CLICK_COUNTER)
+        val clickCounter = SecurePreferences.getStringPreference(
+            context,
+            AppConstant.INTERSTITIAL_AD_CLICK_COUNTER
+        )
 
         //setting up trending list grid recycler view layout manager and adapter and passing list to adapter
         val gridLayoutManager = GridLayoutManager(context, 3)
         binding.rvTrendingList.layoutManager = gridLayoutManager
-        trendingListAdapter = TrendingListAdapter(requireContext(), trendingItemList, interstitialAd, interstitialAdClickCounter, clickCounter)
+        trendingListAdapter = TrendingListAdapter(
+            requireContext(),
+            trendingItemList,
+            interstitialAd,
+            interstitialAdClickCounter,
+            clickCounter
+        )
         binding.rvTrendingList.adapter = trendingListAdapter
         trendingListAdapter.notifyDataSetChanged()
 
@@ -159,24 +169,24 @@ class HomeFragment : Fragment() {
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
                     val newVersionCode = firebaseRemoteConfig.getString("new_version_code")
-                    checkForUpdate(newVersionCode)
+                    val isForceUpdate = firebaseRemoteConfig.getBoolean("is_force_update")
+                    checkForUpdate(newVersionCode, isForceUpdate)
                 } else {
                     // Handle fetch failure
                 }
             }
     }
 
-    private fun checkForUpdate(newVersionCode: String) {
-//        val currentVersionCode = BuildConfig.VERSION_CODE.toString()
+    private fun checkForUpdate(newVersionCode: String, isForceUpdate: Boolean) {
 
         val currentVersionCode = getVersionCode(requireContext())
-        val newVersionCodeInt = newVersionCode.toIntOrNull() ?: -1
+        val newVersionCodeInt = newVersionCode.toLongOrNull() ?: -1L
 
         Log.d("ababcd", "Current Version Code: ${currentVersionCode}")
         Log.d("ababcd", "New Version Code from Remote Config is ${newVersionCode}")
 
         if (newVersionCodeInt > currentVersionCode) {
-            showUpdateDialog() // Show update dialog if new version is available
+            showUpdateDialog(isForceUpdate) // Show update dialog if new version is available
         }
     }
 
@@ -185,23 +195,78 @@ class HomeFragment : Fragment() {
         return packageInfo.longVersionCode
     }
 
+    private fun showUpdateDialog(isForceUpdate: Boolean) {
 
-    private fun showUpdateDialog() {
         val appPackageName = requireContext().packageName
-        val dialog = AlertDialog.Builder(requireContext())
-            .setTitle("Update")
-            .setMessage("A new version of the app is available. Please update to the latest version.")
-            .setPositiveButton("UPDATE") { _, _ ->
-                try {
-                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$appPackageName")))
-                } catch (anfe: android.content.ActivityNotFoundException) {
-                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=$appPackageName")))
-                }
+
+        val dialogBuilder = android.app.AlertDialog.Builder(context)
+        val inflater = layoutInflater
+        val dialogView = inflater.inflate(R.layout.custom_exit_dialog, null)
+        dialogBuilder.setView(dialogView)
+
+        // Get dialog elements
+        val tvTitle = dialogView.findViewById<TextView>(R.id.txt_dialog_title)
+        val tvMessage = dialogView.findViewById<TextView>(R.id.txt_dialog_msg)
+        val tvUpdate = dialogView.findViewById<TextView>(R.id.txt_positive)
+        val tvLater = dialogView.findViewById<TextView>(R.id.txt_negative)
+
+        tvTitle.setText("Update")
+        tvMessage.setText("New Update is available! Please update the app for new features")
+        tvUpdate.setText("Update")
+        tvLater.setText("Later")
+
+        // Create and show the dialog
+        val updateDialog = dialogBuilder.create()
+        //making update later button visible or gone base on the isforce update is true or false
+        if (isForceUpdate) {
+            tvLater.visibility = View.GONE
+        } else {
+            tvLater.visibility = View.VISIBLE
+        }
+        updateDialog.show()
+        updateDialog.setCancelable(false)
+
+        // Handle "Yes" button click
+        tvUpdate.setOnClickListener {
+            try {
+                startActivity(
+                    Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse("market://details?id=$appPackageName")
+                    )
+                )
+            } catch (anfe: android.content.ActivityNotFoundException) {
+                startActivity(
+                    Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse("https://play.google.com/store/apps/details?id=$appPackageName")
+                    )
+                )
             }
-            .setCancelable(false)
-            .create()
-        dialog.show()
+        }
+
+        // Handle "No" button click
+        tvLater.setOnClickListener {
+            updateDialog.dismiss() // Close the dialog
+        }
     }
+
+//    private fun showUpdateDialog() {
+//        val appPackageName = requireContext().packageName
+//        val dialog = AlertDialog.Builder(requireContext())
+//            .setTitle("Update")
+//            .setMessage("A new version of the app is available. Please update to the latest version.")
+//            .setPositiveButton("UPDATE") { _, _ ->
+//                try {
+//                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$appPackageName")))
+//                } catch (anfe: android.content.ActivityNotFoundException) {
+//                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=$appPackageName")))
+//                }
+//            }
+//            .setCancelable(false)
+//            .create()
+//        dialog.show()
+//    }
 
 
     private fun toast(type: String, desc: String) {
